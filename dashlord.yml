@@ -20,10 +20,9 @@ tools:
   stats: false
   declaration-a11y: true
 urls:
-  - url: https://www.tcap.gouv.fr
+  - url: https://www.tchap.gouv.fr
     repositories:
       - tchapgouv/tchap-web
-      
   - url: https://matrix.agent.tchap.gouv.fr
   - url: https://matrix.agent.agriculture.tchap.gouv.fr
   - url: https://matrix.agent.culture.tchap.gouv.fr
