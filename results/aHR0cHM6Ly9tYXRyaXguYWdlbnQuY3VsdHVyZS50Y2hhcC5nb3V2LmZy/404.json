@@ -1,0 +1,62 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "matrix.agent.culture.tchap.gouv.fr",
+        "port": null,
+        "hostname": "matrix.agent.culture.tchap.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://matrix.agent.culture.tchap.gouv.fr/"
+      },
+      "link": "https://matrix.agent.culture.tchap.gouv.fr/",
+      "line": "--2022-04-14 23:33:55--  https://matrix.agent.culture.tchap.gouv.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "matrix.agent.culture.tchap.gouv.fr",
+        "port": null,
+        "hostname": "matrix.agent.culture.tchap.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://matrix.agent.culture.tchap.gouv.fr/robots.txt"
+      },
+      "link": "https://matrix.agent.culture.tchap.gouv.fr/robots.txt",
+      "line": "--2022-04-14 23:33:56--  https://matrix.agent.culture.tchap.gouv.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "matrix.agent.culture.tchap.gouv.fr",
+        "port": null,
+        "hostname": "matrix.agent.culture.tchap.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/images/tchap192.png",
+        "path": "/images/tchap192.png",
+        "href": "https://matrix.agent.culture.tchap.gouv.fr/images/tchap192.png"
+      },
+      "link": "https://matrix.agent.culture.tchap.gouv.fr/images/tchap192.png",
+      "line": "--2022-04-14 23:33:57--  https://matrix.agent.culture.tchap.gouv.fr/images/tchap192.png",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
