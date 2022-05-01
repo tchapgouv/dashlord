@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "183 >= 60 days"
+              "finding"      : "176 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1650761418"
+              "finding"      : "1651366876"
           }
 ,         {
               "id"           : "HSTS",
@@ -1070,6 +1070,6 @@
               "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "144"
           }
 ]
