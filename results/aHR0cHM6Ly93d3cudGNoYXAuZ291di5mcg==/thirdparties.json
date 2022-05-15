@@ -1,8 +1,24 @@
 {
   "trackers": [],
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "split_test_version",
+      "value": "version_current",
+      "domain": "www.tchap.gouv.fr",
+      "path": "/",
+      "expires": 1655167484.970639,
+      "size": 33,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
   "headers": {
-    "date": "Sun, 08 May 2022 00:33:25 GMT",
+    "date": "Sun, 15 May 2022 00:44:27 GMT",
+    "set-cookie": "split_test_version=version_current; Path=/; Max-Age=2592000",
     "content-type": "text/html",
     "last-modified": "Mon, 13 Dec 2021 16:13:53 GMT",
     "etag": "W/\"61b77141-e9a\"",
