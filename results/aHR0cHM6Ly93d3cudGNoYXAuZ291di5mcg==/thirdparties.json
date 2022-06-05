@@ -3,11 +3,11 @@
   "cookies": [
     {
       "name": "split_test_version",
-      "value": "version_new",
+      "value": "version_current",
       "domain": "www.tchap.gouv.fr",
       "path": "/",
-      "expires": 1656376527.063321,
-      "size": 29,
+      "expires": 1656981660.859623,
+      "size": 33,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -17,21 +17,21 @@
     }
   ],
   "headers": {
-    "date": "Sun, 29 May 2022 00:35:24 GMT",
-    "set-cookie": "split_test_version=version_new; Path=/; Max-Age=2592000",
-    "content-type": "text/html",
-    "last-modified": "Tue, 15 Mar 2022 14:50:29 GMT",
-    "etag": "W/\"6230a7b5-e9a\"",
-    "referrer-policy": "no-referrer",
-    "strict-transport-security": "max-age=31536000; includeSubdomains",
-    "x-content-type-options": "nosniff",
-    "content-security-policy": "frame-ancestors 'self'",
-    "x-frame-options": "SAMEORIGIN",
-    "x-xss-protection": "1; mode=block",
-    "content-encoding": "gzip",
-    "keep-alive": "timeout=5, max=300",
     "connection": "Keep-Alive",
-    "transfer-encoding": "chunked"
+    "content-encoding": "gzip",
+    "content-security-policy": "frame-ancestors 'self'",
+    "content-type": "text/html",
+    "date": "Sun, 05 Jun 2022 00:40:58 GMT",
+    "etag": "W/\"6230a7b5-e9a\"",
+    "keep-alive": "timeout=5, max=300",
+    "last-modified": "Tue, 15 Mar 2022 14:50:29 GMT",
+    "referrer-policy": "no-referrer",
+    "set-cookie": "split_test_version=version_current; Path=/; Max-Age=2592000",
+    "strict-transport-security": "max-age=31536000; includeSubdomains",
+    "transfer-encoding": "chunked",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
     {
