@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 29 May 2022 01:34:37",
+	"@generated": "Sun, 5 Jun 2022 01:45:20",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.justice.tchap.gouv.fr",
