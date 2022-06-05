@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 29 May 2022 00:48:10",
+	"@generated": "Sun, 5 Jun 2022 00:54:38",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.dev-durable.tchap.gouv.fr",
