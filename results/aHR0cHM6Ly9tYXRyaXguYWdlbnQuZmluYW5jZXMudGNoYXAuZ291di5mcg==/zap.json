@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 5 Jun 2022 01:30:20",
+	"@generated": "Sun, 12 Jun 2022 01:19:45",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.finances.tchap.gouv.fr",
