@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jun 19 00:07:21 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Jun 26 00:08:54 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.tchap.gouv.fr
 Host: 143.196.253.119 ()	Status: Up
 Host: 143.196.253.119 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
-# Nmap done at Sun Jun 19 00:09:23 2022 -- 1 IP address (1 host up) scanned in 122.09 seconds
+# Nmap done at Sun Jun 26 00:11:00 2022 -- 1 IP address (1 host up) scanned in 126.24 seconds
