@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 3 Jul 2022 00:08:12",
+	"@generated": "Sun, 10 Jul 2022 00:08:20",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -137,13 +137,6 @@
 							"evidence": "Set-Cookie: split_test_version"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1d0fb9321b9e5ed58fd1/bundle.css",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
 							"method": "GET",
 							"param": "split_test_version",
@@ -201,6 +194,13 @@
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
+							"method": "GET",
+							"param": "split_test_version",
+							"attack": "",
+							"evidence": "Set-Cookie: split_test_version"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
 							"method": "GET",
 							"param": "split_test_version",
 							"attack": "",
@@ -233,13 +233,6 @@
 							"evidence": "Set-Cookie: split_test_version"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1d0fb9321b9e5ed58fd1/bundle.css",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
 							"method": "GET",
 							"param": "split_test_version",
@@ -297,6 +290,13 @@
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
+							"method": "GET",
+							"param": "split_test_version",
+							"attack": "",
+							"evidence": "Set-Cookie: split_test_version"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
 							"method": "GET",
 							"param": "split_test_version",
 							"attack": "",
@@ -329,13 +329,6 @@
 							"evidence": "Set-Cookie: split_test_version"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1d0fb9321b9e5ed58fd1/bundle.css",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
 							"method": "GET",
 							"param": "split_test_version",
@@ -393,6 +386,13 @@
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
+							"method": "GET",
+							"param": "split_test_version",
+							"attack": "",
+							"evidence": "Set-Cookie: split_test_version"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
 							"method": "GET",
 							"param": "split_test_version",
 							"attack": "",
@@ -518,7 +518,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "39"
+					"sourceid": "40"
 				},
 				{
 					"pluginid": "10094",
@@ -565,7 +565,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "35"
+					"sourceid": "36"
 				},
 				{
 					"pluginid": "10027",
@@ -698,7 +698,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180x180.bb6d2e7.png",
+							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-152x152.71953dd.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
