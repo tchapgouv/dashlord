@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 3 Jul 2022 00:24:11",
+	"@generated": "Sun, 10 Jul 2022 00:24:20",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.diplomatie.tchap.gouv.fr",
