@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 31 Jul 2022 00:39:06",
+	"@generated": "Sun, 7 Aug 2022 00:35:04",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.dinum.tchap.gouv.fr",
