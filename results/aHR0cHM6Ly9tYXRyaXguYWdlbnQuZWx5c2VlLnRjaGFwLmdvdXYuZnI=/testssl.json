@@ -206,7 +206,7 @@
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "66 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (59)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2022-10-05 21:59"
           }
 ,         {
@@ -500,14 +500,14 @@
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1659228476"
+              "finding"      : "1659833041"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "96"
           }
 ]
