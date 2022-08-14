@@ -1,0 +1,1068 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered + downgraded to weaker protocol"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_AVERAGE",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_GOOD",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "protocol_negotiated",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Default protocol TLS1.2"
+          }
+,         {
+              "id"           : "cipher_negotiated",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384, 256 bit ECDH (P-256)"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "secp256k1 prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'heartbeat/#15' 'application layer protocol negotiation/#16'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 300 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "cert_compression",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "N/A"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "74B87114B9FDD205041AD3CC71954253"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6D0B4FE2382A78D3B66B421B3F9082084A23271A"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "7D60850A2BF7ECF079E166712B32571869DA0DE7521B0496FFE07D22797FCAA3"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIIrzCCBpegAwIBAgIQdLhxFLn90gUEGtPMcZVCUzANBgkqhkiG9w0BAQsFADB9 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAy IDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEd MBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjExMDI0MjIwMDAwWhcN MjIxMDI0MjE1OTU5WjCBqTELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBBUklTMSYw JAYDVQQKDB1HT1VWRVJORU1FTlQgUFJFTUlFUiBNSU5JU1RSRTEcMBoGA1UECwwT MDAwMiAxMTAwMDEwMTMwMDAxNzEvMC0GA1UEAwwmbWF0cml4LXNpci5hZ2VudC5j dWx0dXJlLnRjaGFwLmdvdXYuZnIxEzARBgNVBAUTClMyMTYxOTA5ODcwggEiMA0G CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOySmsA0D4jChvB9t4KCTTL0Ad6ID1 0tWQVpPQah0PrLwAmz0FX9lDu5xU1fEfaglSslFCcb92RxYN0u1wM0I8ltayO1qI EiTByOpDTp35GH251IXHlD7E/lofiE3dGJYxMjyEG24FOZxsxZIM/uDPLGQ+UWqX /Fqnr5vZVin5j9CqlcdnTJGZZV32Rb2rzneqLCS1y5e7Tx2NXgAVLHBQJGKbFj0x JpVxvzbt9t0AkDPmWlQP0XI5DM1W+dSrbVAOpBWPlQHKws7SQcyJGGYidcrLkau3 sond8841ZYiQ7dbhUr9h4U77qc4dljJmjpcnsIlIBs3ZI9N3K9sSpImhAgMBAAGj ggP8MIID+DCB5AYIKwYBBQUHAQEEgdcwgdQwNgYIKwYBBQUHMAKGKmh0dHA6Ly9h dXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRlcjA4BggrBgEFBQcwAoYs aHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwLgYI KwYBBQUHMAGGImh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuY2VydGlnbmEuZnIwMAYI KwYBBQUHMAGGJGh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuZGhpbXlvdGlzLmNvbTAf BgNVHSMEGDAWgBSs7IaPSzccuH8XGxnQruhO4zRcEjAJBgNVHRMEAjAAMGEGA1Ud IARaMFgwCAYGZ4EMAQICMEwGCyqBegGBMQIFAQEBMD0wOwYIKwYBBQUHAgEWL2h0 dHBzOi8vd3d3LmNlcnRpZ25hLmNvbS9hdXRvcml0ZS1jZXJ0aWZpY2F0aW9uMGUG A1UdHwReMFwwLaAroCmGJ2h0dHA6Ly9jcmwuZGhpbXlvdGlzLmNvbS9zZXJ2aWNl c2NhLmNybDAroCmgJ4YlaHR0cDovL2NybC5jZXJ0aWduYS5mci9zZXJ2aWNlc2Nh LmNybDATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCBaAwVQYDVR0R BE4wTIImbWF0cml4LXNpci5hZ2VudC5jdWx0dXJlLnRjaGFwLmdvdXYuZnKCIm1h dHJpeC5hZ2VudC5jdWx0dXJlLnRjaGFwLmdvdXYuZnIwHQYDVR0OBBYEFBYBZMUG KxOpi9q5rfOEMzBUQQeKMIIBfAYKKwYBBAHWeQIEAgSCAWwEggFoAWYAdgApeb7w njk5IfBWc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXy42qQLAAAEAwBHMEUCIQCF nEU9ciLtpGIkj8/sBVBWRFOdwJ+yaBZlaVHFo4oBdAIgRzRdsRzho/822QUMv+6t nrLhTZrtR9Au0taV+nKtneoAdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8 cP5tRwAAAXy42p5uAAAEAwBGMEQCIQDVNA7VAtRZW0UWnCYVJO7WY66bCUzg7jsz 3r/3Pw5fVwIfNmCcUAXIZ/xeK5oU9NpHNvw4L1WvFLEoVbul25NtXAB1AG9Tdqwx 8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABfLjapr8AAAQDAEYwRAIga/pU 01EoAbTK+fU9C960ZAZz7FD1XnyltEiAKXO87zUCIHIzETKECHY/+HIQRy/Y8xG9 9swqGDyekrh/5gFR1VdwMA0GCSqGSIb3DQEBCwUAA4ICAQCfkZg5xNP/Mrg/F05q TMMdAagwmQ45Kg5ymKsExAEFmMr8h4vL5+mlz1dW3ikpGsBU/LumY8T3Qyh/RQ/m V6foczVVJYAyz/UHs6VovkZawtXCKGTZFgfNbT/Gkc6rGAik/hxD9qXeFK36YpCl wDy32iITyqUl93YMXNOgDlpLR83dn7WIfdKPAo6GRBWLe1b0A5Oyd85DqDWgmarD 10QdUpZMwvuaXr+SJEqKk6PmGlax9+6ETsfb/FI25eA7O+/ZOrIKaIjL8qQElUVA oJGHQhNBoqTMU1W3W/nI7CM37+gSyBTjXYMrGLEfgxuBMOnC0T9oJ9B4G4vd9Y4A 2ts/Bo+lbnllUdhGP78IU4ZyaOpAN8MK4MO/0xQ5Oc7N4IJKx4jCsZES+rWhXL1q sVjvUWJvIYJW0YBOA/ntRpxnvh2BnPapFdZbMyyjtJQLSIRUki+Mowef9XLbWBiP UYyhhquLuiBQnHVajWEwCpCLI8m6r5YIvhx6FUpShqyF0OKaey6x0vd2aa1jUhSk 5IIy+MKhaxcNqbtdxmxxkxrOgc302aVQMAF27WMeJ6YpdNWRSK+l8Mv8AInA760p oJBDjh5StFYw4WcXQqzZaoh0ILlZtPmREhm9Ivif7VN5h4XVVh7BtJ7p3zzW60i4 ntO36yOZxS2QVK/eyrv9xKVlTQ== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "matrix-sir.agent.culture.tchap.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "matrix-sir.agent.culture.tchap.gouv.fr"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "matrix-sir.agent.culture.tchap.gouv.fr matrix.agent.culture.tchap.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "Some certificate trust checks failed -> Java (chain incomplete)  , OK -> Mozilla Microsoft Linux Apple"
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "71 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2021-10-24 22:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2022-10-24 21:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIGFjCCBP6gAwIBAgIQb4L6KKzW94S7WxILqHNnrTANBgkqhkiG9w0BAQsFADA0 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJRGhpbXlvdGlzMREwDwYDVQQDDAhDZXJ0 aWduYTAeFw0xNTExMjUxMTMzNTJaFw0yNTExMjIxMTMzNTJaMH0xCzAJBgNVBAYT AkZSMRIwEAYDVQQKDAlESElNWU9USVMxHDAaBgNVBAsMEzAwMDIgNDgxNDYzMDgx MDAwMzYxHTAbBgNVBGEMFE5UUkZSLTQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQQDDBRD ZXJ0aWduYSBTZXJ2aWNlcyBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoC ggIBALPM+7LpWBz9wFcPaTc3xnB+5g0XrnptB0EPPfrR04vO52Ykm4ky1d4ZLd10 tbM1fa1RqNSOVWWg93O4pL7zCFKlz6JV74ZZVhHpEAwzBwv2oPnxvVbxtSN67xsS Y66ahUYxjzs8+3FhmsiRxqwnTYvK2u70uglUvRisOKyTL/M6JnrC4y8tlmoz7OSa 5BmBMVplJFQtvmON6N9aHLvYMz+EyJPCbXL6pELxeHjFT5QmIaRamsr2DOTaCjtB ZKI1Wnh3X7lnbjM8MESJiV2t7E9tIQNG0Z/HI3tO4aaUMum3KysY5sC8v3vi7rry GidgzHQhrtP0ZXWW5UH/k7umLS/P/XXWnCFpc2Lxa1uDGfc2im7xibRoPP+JNZsz N76euFlls6jyEXAiwnVr14tVVTewLK0OWs5SJHpEKp8PGMZRDj59EmMvokWwzL6Q zNZ6vVAp00oOm05sbspNY9+MFqGKKUsKvhFGEa4XmRNxDe6KswLcjPZB+NKHZ0QW Fd4ip5C5XmEK/8qIPjwVr9dah9+oiHGGO8Wx7gJAMF5DTmkvW7GhqCKj1LmHnabj zc8av6kxWVQZi/C7HCm9i/W4wio+JA2EAFLqNL3GPNbK9kau4yPhQt/c7zxzo0OH nlsV4THCG7oOCd3cfCiyfQcb3FBt6OSpaKRZxjCLBwP00r0fAgMBAAGjggHZMIIB 1TASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQU rOyGj0s3HLh/FxsZ0K7oTuM0XBIwZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF 9lo53BGhOKQ2MDQxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAP BgNVBAMMCENlcnRpZ25hggkA/tzjAQ/JSP8wSQYDVR0gBEIwQDA+BgoqgXoBgTEB AAECMDAwLgYIKwYBBQUHAgEWImh0dHBzOi8vd3d3LmNlcnRpZ25hLmZyL2F1dG9y aXRlcy8wfAYIKwYBBQUHAQEEcDBuMDQGCCsGAQUFBzAChihodHRwOi8vYXV0b3Jp dGUuY2VydGlnbmEuZnIvY2VydGlnbmEuZGVyMDYGCCsGAQUFBzAChipodHRwOi8v YXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9jZXJ0aWduYS5kZXIwYQYDVR0fBFowWDAp oCegJYYjaHR0cDovL2NybC5jZXJ0aWduYS5mci9jZXJ0aWduYS5jcmwwK6ApoCeG JWh0dHA6Ly9jcmwuZGhpbXlvdGlzLmNvbS9jZXJ0aWduYS5jcmwwDQYJKoZIhvcN AQELBQADggEBAGLft7gIuGPZVfg0cTM+HT2xAZFPDb/2+siH06x+dH044zMKbBIN bRzhKipwB1A3MW8FQjveE9tyrfyuqZE/X+o2SlGcdNV44ybYkxo4f6kcLEavV/IW +oFEnojZlhpksYcxrvQoEyqkAwshe8IS2KtZHKVACrt+XSs0lwvy7ALGmHaF7A4b y6cZWItA7Lhj8XWp+8tBJDj7HocRbWtxzEODdBuyMgJzFrNjc+97J0vH/K0+3yjm kczpKshMA0tM+MF9XDMN/MuwrPmUWGO/fHiqHgUp8yqeWtl1n44ZxkkK1t9GRwhn DWLv73/xhTmdhWYQ/reo0GbgBoLiltKmIJQ= -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1660436732"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable , timed out"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7D60850A2BF7ECF079E166712B32571869DA0DE7521B0496FFE07D22797FCAA3"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "matrix.agent.culture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "136"
+          }
+]
