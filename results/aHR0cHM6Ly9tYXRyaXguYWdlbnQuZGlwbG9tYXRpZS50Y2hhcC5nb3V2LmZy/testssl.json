@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.diplomatie.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "61 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (54)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.diplomatie.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2022-10-21 21:59"
           }
 ,         {
@@ -507,7 +507,7 @@
               "ip"           : "matrix.agent.diplomatie.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1661041830"
+              "finding"      : "1661646633"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "matrix.agent.diplomatie.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "140"
+              "finding"      : "102"
           }
 ]
