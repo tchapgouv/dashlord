@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Sep  4 00:26:20 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.culture.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Sep 11 00:29:20 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.culture.tchap.gouv.fr
 Host: 143.196.253.101 ()	Status: Up
 Host: 143.196.253.101 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
-# Nmap done at Sun Sep  4 00:28:22 2022 -- 1 IP address (1 host up) scanned in 122.04 seconds
+# Nmap done at Sun Sep 11 00:31:33 2022 -- 1 IP address (1 host up) scanned in 132.96 seconds
