@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -269,7 +269,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "47AA4133599FB80ECDFFCA24C33B1ADE"
+              "finding"      : "C2BD411988DD2867DB4F3D9337BC7616"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "98105AEBD73F93AE67BEC075F16BB3ECE0F612B8"
+              "finding"      : "363A10958A048150C70A52F164BB6858D6CC75C2"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7190CE52E2F29DC3ADB80E9616F299C121692EC90CFDCD6F9295A74748278C21"
+              "finding"      : "C646DF26250CC50F7DFA71C7C657BC1B01E73F7B840FA6BA257249178ED21BB9"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIItjCCBp6gAwIBAgIQR6pBM1mfuA7N/8okwzsa3jANBgkqhkiG9w0BAQsFADB9 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAy IDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEd MBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjExMDIxMjIwMDAwWhcN MjIxMDIxMjE1OTU5WjCBqzELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBBUklTMSYw JAYDVQQKDB1HT1VWRVJORU1FTlQgUFJFTUlFUiBNSU5JU1RSRTEcMBoGA1UECwwT MDAwMiAxMTAwMDEwMTMwMDAxNzExMC8GA1UEAwwobWF0cml4LXNpci5hZ2VudC5l ZHVjYXRpb24udGNoYXAuZ291di5mcjETMBEGA1UEBRMKUzIxNTgwMTcwNzCCASIw DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANygug5ADk5S35l0T/JWvuwlAtIK +i2DObEiFhsQJJjR8ngrSy6XjopW2wjMeIEymnQEu0A7BOd2h2AZdsobmeMMydDz 8bzPMAsvuPwZ8r+fqKOtoGEJWUpXlm+4rMw+dWWfB79OhNZy11ffLLVcaxJ+XDm7 DWDJlzt6SLi1UBogZyvfUVv/WvB2IrTyUT39gXrUEXVTyySTdYdJZC5ZVlWrCcCp opp9hXarmqfup1Vtk2o5vzvdH2nKuOWiFSrucmPlfpr0Jbh/4u1xEm9CJMq+Qs/X 3avymtz4YjuEEMc6KkT5nPZln9JR2rI9jBCmQwb0kQdFn6xirUtzlt7uzPcCAwEA AaOCBAEwggP9MIHkBggrBgEFBQcBAQSB1zCB1DA4BggrBgEFBQcwAoYsaHR0cDov L2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwNgYIKwYBBQUH MAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRlcjAu BggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5mcjAw BggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29t MB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAkGA1UdEwQCMAAwYQYD VR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYv aHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24w ZQYDVR0fBF4wXDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZp Y2VzY2EuY3JsMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2Vz Y2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDBZBgNV HREEUjBQgihtYXRyaXgtc2lyLmFnZW50LmVkdWNhdGlvbi50Y2hhcC5nb3V2LmZy giRtYXRyaXguYWdlbnQuZWR1Y2F0aW9uLnRjaGFwLmdvdXYuZnIwHQYDVR0OBBYE FGpeQ666XLV+fnBLHmac6QwWqCl7MIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcA dgApeb7wnjk5IfBWc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXyoYg88AAAEAwBH MEUCIB94I18hIQ79OBIBo7QX6Yks+b1cAY9AqsL4jX/RBXi6AiEA58n53eLdlTaV lc4ZJcKx1OX3CWiwgaLIeoWfiDpJnYgAdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79 SbiFq/L8cP5tRwAAAXyoYg2CAAAEAwBGMEQCICD+S1vqNUw0G/trsBo8CXiDBG8Y wNEVOHcVGxDdem9kAiAh3OEOz2G00N8pF5rpc7WFkH3ayKxwpyrVBq9aqX4oDgB2 AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABfKhiEsEAAAQDAEcw RQIhALf7i57xjVN9zSRFknJHVrPennqZu+6A10E1NkY359nOAiBa3Six7VFjQIR8 6wK3cX7xGaTrAaj++B+jszu0PCCSYzANBgkqhkiG9w0BAQsFAAOCAgEAZwVdeM7y V6icnApRb9f0zfCDVNGB7OIx2PCp/i2By3nE/1KRiBMQbK6hyHrXkUKy7vdjLYu6 HMLnyzI44HiiIuYTFIcf9EELviFDAeLcXRQi+fWV543oskcOsB92I1X/fTjwrfK5 FJMqnocKLu4zIuwrZLv6PZnK+YBged13aaolaThVXOrHu/+fNlYvbDYCAIuXu1fZ UIQovb744HWclPWFBnERsHg2bZLNG3D0MJ8SA2Vib3KFzmYQQCmUn4BgxcgPRio+ soUt/N00a8SfoDYcgU4ANGpAN++nzM3SSoxIZAlSpT81Fg5Vq5jCcNh2WJCRhtOv cu9YlAnJ7OjC30BZ64HOpgCckHF/JM0Bk/l8A9xWilZT2aZPEwMcuxLmZflINdvx BlcCIEvU/UvbnuCiZGMs7odRueCh5UPXxEcvV72Sa3+llFCBqwBw94UM1Tv3tS8Z i6S31HR8EafQCx2o8Vf/Ub72S7pLyPzXAJzITJY5gp53WrIy3tiW4eN5OvzBRABC 4SwUjhyxf9G11x30TLdCk1XUjcTZaJ+ntX28rTV2vcXisj2K/HSGaknrMPKiFs+I 8shwyOHFTjM+9WoTdXpUmlMvqrWu5OJ/3FJ4fisuCW99w38r6m6OBritRTusbt9Q wd1qMvU/YmKnLsCOhaVbFDV5JWEDto66KTg= -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIImjCCBoKgAwIBAgIRAMK9QRmI3Shn2089kze8dhYwDQYJKoZIhvcNAQELBQAw fTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAw MiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYx HTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTIyMDkxMTIyMDAwMFoX DTIzMTAxMzIxNTk1OVowgY0xCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEm MCQGA1UECgwdR09VVkVSTkVNRU5UIFBSRU1JRVIgTUlOSVNUUkUxMTAvBgNVBAMM KG1hdHJpeC1zaXIuYWdlbnQuZWR1Y2F0aW9uLnRjaGFwLmdvdXYuZnIxEzARBgNV BAUTClMyNDgzMDA0NTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDD jw5K8D/vTT5Co9olRdrOtTliOiJfPAqTu1Md5rfjykV3T06TeCWyOT9V8rXQHXPH WspY/BVHna02V5h4tEPX7QGwZQvTXkN6STm2VgFDje8K1bli+sFrN7rH672nziiY qTjdcCDw1aWJC0oJXdxaerhfb45AensWFTnD67qsAwVcjUlckcA/fdLblu5VoaH8 yb/RvxbrkYKvLZOT4w0pcV0+fLag/K3duEne93Jr4W8bEw4nDFGArcmOS05gIw4y j1FmMq92Uj4MFClR1Ezq9otp9mL77bhuuTAkFSHhwwspK6zrdTYj1miPf2cczq2D +QkXvz1HhtMGzDOpHgmtAgMBAAGjggQCMIID/jCB5AYIKwYBBQUHAQEEgdcwgdQw OAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZp Y2VzY2EuZGVyMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEu ZnIvc2VydmljZXNjYS5kZXIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9zZXJ2aWNlc2Nh Lm9jc3AuZGhpbXlvdGlzLmNvbTAuBggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2Vz Y2Eub2NzcC5jZXJ0aWduYS5mcjAfBgNVHSMEGDAWgBSs7IaPSzccuH8XGxnQruhO 4zRcEjAJBgNVHRMEAjAAMGEGA1UdIARaMFgwCAYGZ4EMAQICMEwGCyqBegGBMQIF AQEBMD0wOwYIKwYBBQUHAgEWL2h0dHBzOi8vd3d3LmNlcnRpZ25hLmNvbS9hdXRv cml0ZS1jZXJ0aWZpY2F0aW9uMGUGA1UdHwReMFwwK6ApoCeGJWh0dHA6Ly9jcmwu Y2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwLaAroCmGJ2h0dHA6Ly9jcmwuZGhp bXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmNybDATBgNVHSUEDDAKBggrBgEFBQcDATAO BgNVHQ8BAf8EBAMCBaAwWQYDVR0RBFIwUIIobWF0cml4LXNpci5hZ2VudC5lZHVj YXRpb24udGNoYXAuZ291di5mcoIkbWF0cml4LmFnZW50LmVkdWNhdGlvbi50Y2hh cC5nb3V2LmZyMB0GA1UdDgQWBBSdnUKurwc4EdRfua5ItDVBd8FqJDCCAX4GCisG AQQB1nkCBAIEggFuBIIBagFoAHYArfe++nz/EMiLnT2cHj4YarRnKV3PsQwkyoWG NOvcgooAAAGDMprb0QAABAMARzBFAiEAtOoF0xlV1Y/WuavzvZLHP0UM9Azb9ssA kNHnueukEc4CIHd+ZiDCn87qNaKokNu+vkkaNki5UgjY+oiCt8WLzFhMAHYA6D7Q 2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAGDMprb/wAABAMARzBFAiBx baDRvcpm2Yzl9+suD2x/e2henqgxMPWkpqWTOIucJAIhAIXOD1NMOG/w63EjCqSg zkdhxtUesws8Y+Tjt/Z492CJAHYAs3N3B+GEUPhjhtYFqdwRCUp5LbFnDAuH3PAD Dnk2pZoAAAGDMprfOQAABAMARzBFAiEAmaLS/GfVh9oPfQFwLXb9TVPrKdLbJNEs oS19970Ygm4CIDl7WjrTC7CJP9tuKgtrZFo4r4FGMM9aTIGvw8wTJC3ZMA0GCSqG SIb3DQEBCwUAA4ICAQAmK17lK6uHytfECHWCo/l1qf0Dg+DELhLZ1qBv2cySrhML VxMPaEghSdSYUAWiiL7yEcDYIw+fOvAczObYuM+uv/K3zLb9SpgGbFPMCpcZ5kjh qOVTpR+Zxkzi1PIkLXcY5eOVGDaoQjk4VGdXaMocIv2bB/38NRXkekH7tD3BT99U 5qS+DSXh4QjULSi9Gj2SXXsWYmB8Q15e5zFtwy+b6gehCNHVnIjZtSrzYDrWy9vS PnW9DJHlvgjnswS3MpChmvS7dVq/RkO1IExZUC4nOME175XvLUoWtrN77IqhAv52 tsGeZeuczJNjDyk/HcmSpEbbTOgh1w4K/WxTn4P3r11B90etmiGOwH5wbHCbflLf HTeYHwlshwmzdn8BosbBWPWsH7h84J5K8debnCVfU3yQAv+LJNUHVHp+8+sykvkZ eWy1Qqp1Ae0DRFocJOHaf5k7kZlWNjy7GJQmt8+FOy3HrTSAC5jIB00MpUEFSsJR A4Fb0asRAATdyTjdI6yC54QEYKoC+2CPSXcbohv2oHjhz3JvEZpzqnNqDoJdju1l GgqAV+YQyU4L9VvNXUeMWypvvifGge0w90phwARqJEpYk5f1k29xSy9J/+4BGFad UPh1CXT62E8+3qhPoyQIhE50AsLHYuJ6mIsgqD7FZBq4UcxfGs/NFqc+hTk15g== -----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "matrix-sir.agent.culture.tchap.gouv.fr"
+              "finding"      : "matrix-sir.agent.intradef.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -332,7 +332,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (chain incomplete)  , OK -> Mozilla Microsoft Linux Apple"
+              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Apple"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (40)"
+              "severity"     : "OK",
+              "finding"      : "390 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2021-10-21 22:00"
+              "finding"      : "2022-09-11 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2022-10-21 21:59"
+              "severity"     : "OK",
+              "finding"      : "2023-10-13 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -423,7 +423,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2"
+              "finding"      : "3"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -482,6 +482,48 @@
               "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNV BAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4X DTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQ BgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4 QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxny gQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbw zBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q 130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2 JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkw DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEw ZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYT AkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzj AQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG 9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8h bV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFnc fca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuu HWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6w t0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/Qw WyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2007-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna <-- Certigna"
+          }
+,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
@@ -507,7 +549,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1662857299"
+              "finding"      : "1663461841"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +722,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7190CE52E2F29DC3ADB80E9616F299C121692EC90CFDCD6F9295A74748278C21"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C646DF26250CC50F7DFA71C7C657BC1B01E73F7B840FA6BA257249178ED21BB9"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1105,6 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "135"
+              "finding"      : "149"
           }
 ]
