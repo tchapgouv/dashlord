@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -269,7 +269,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "559F8D9C1354843AA8AAE3FBA5C6BD93"
+              "finding"      : "71C6B2F3928E0CD796099529E08354B7"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DCF639C145946A1EAA0FC2641464B70E0713DB2E"
+              "finding"      : "CAA179C3ACD98C355F8FC7E4A81D1E818C56D6FC"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55170C0B3E56AE451EA80D72E989797F1DAC6A392217F775A892B5FF4B78C7D2"
+              "finding"      : "3810AC8E8A24855A49B65E3DBAE04B0077AC714994E9D1B2508A8C2BA934B171"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIImDCCBoCgAwIBAgIQVZ+NnBNUhDqoquP7pca9kzANBgkqhkiG9w0BAQsFADB9 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAy IDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEd MBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjExMDIxMjIwMDAwWhcN MjIxMDIxMjE1OTU5WjCBoTELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBBUklTMSYw JAYDVQQKDB1HT1VWRVJORU1FTlQgUFJFTUlFUiBNSU5JU1RSRTEcMBoGA1UECwwT MDAwMiAxMTAwMDEwMTMwMDAxNzEnMCUGA1UEAwwebWF0cml4LXNpci5hZ2VudC50 Y2hhcC5nb3V2LmZyMRMwEQYDVQQFEwpTMjE1ODgxNzE1MIIBIjANBgkqhkiG9w0B AQEFAAOCAQ8AMIIBCgKCAQEAyHHH3bAEISksCsQ+aAbv8ncC3tiuaLqWlG+gKVW0 gWUQFxbENlOQ9HeiQMlMGyyDe3TyDk7lEbsc9/m2Egdea4eizfMnvPQpbUgM8LbP wUlt2oy7PNQpWf2RHBU5nkCLvOcIo15gmt0YMrNqFZY0FZBpEKcT4O2Z+sgMDuoN qYtBh4WwjOsEH0P9NDycGOWPtYwtOIiBpslyJda3Y4uQJQe+mVmai4JBH9VuOI1O 0GyUSJnhjvAyC80oJlvsfnM+ppjN1mG/UC2RshpxbsisX5xfE/BH6QIMxYmNPA3Y Ikn1I652qRlZWAITQoDZ4I/snQykNsIz1xsyy4Y/m/PY3wIDAQABo4ID7TCCA+kw geQGCCsGAQUFBwEBBIHXMIHUMDgGCCsGAQUFBzAChixodHRwOi8vYXV0b3JpdGUu ZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjA2BggrBgEFBQcwAoYqaHR0cDov L2F1dG9yaXRlLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuZGVyMC4GCCsGAQUFBzAB hiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMDAGCCsGAQUFBzAB hiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wHwYDVR0jBBgw FoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwCQYDVR0TBAIwADBhBgNVHSAEWjBYMAgG BmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3 dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBc MC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmww K6ApoCeGJWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwEwYD VR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMEUGA1UdEQQ+MDyCGm1h dHJpeC5hZ2VudC50Y2hhcC5nb3V2LmZygh5tYXRyaXgtc2lyLmFnZW50LnRjaGFw LmdvdXYuZnIwHQYDVR0OBBYEFKsROuXT+z8ZMn8XWB0XDX0csRSCMIIBfQYKKwYB BAHWeQIEAgSCAW0EggFpAWcAdgApeb7wnjk5IfBWc59jpXflvld9nGAK+PlNXSZc JV3HhAAAAXyoaYMmAAAEAwBHMEUCIEmxIdnR+n+tzpnfH/KkL4xc/CyKn24oz8QK bz4JAsZPAiEA1AfpubNEHZSg5CHHAwYr0eF5XmvAUayjSOM+bjWBicMAdgBGpVXr dfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXyoaYL8AAAEAwBHMEUCIQD7 JFqHdLTQY2zgzoPHk3sEsdagV4q++kGO8p8nwYMKZgIge2JNi1Upmmn/hIIkl3Go XjXgi3chReiy2A5AobHTJtkAdQBvU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbII mjfZEwAAAXyoaYaMAAAEAwBGMEQCIEZEyRp3p73iWVSDD16/GX3pcRdXKvgjvXj6 W6acGUxeAiB1TPOCjN/9jfYAi54EoaO2hYOxs3rhWJ/tENy8t85muTANBgkqhkiG 9w0BAQsFAAOCAgEAZ3daRaCuOqEfhiPMFZpWtF1Y4XHiGU1tsIZL8Iy8E1Hye0Xf w+/p7V45gwkw/NWxK89H6Lj8LPpvmbhFT5mfBOP26A3oPKoikoHVKn68PJePxJNg KAhb/OZbBJ5LCaj7VwqUD9yVohcBPDhy2mjzrKlED9NDpqmMsK6vtTbZXbslw3fS ncY35vxB7ygXErK0aA8xKpPpj2qNPR9D7QLcz/5Qw/1F/jNFk7LeGY5kIFZ9jYJE 3I+CsTjGWkbY+ety0ksQcCWdZ8HIk7Fb7zNBn0Cvf+12Ea8VsCqaAUDGdKh+q/Ij ehUoDrAZ674IIMYt3uY9xB6r8TXs3mr+BRc9BwjmMuXj6uVLwx6haSZJ8dVSFdzB E+031JqXuFVd8hiUUjyQNXP4fpIcFO7wiSwH0seuOV+5ETkR4GYqyI1JNMmKxFUZ e43cGj6WYGG/VfWO++1bI2g/58gl6m5Ez90+ii/gXBSfS0sfSIXL2YvkS+ofVBtQ h1Po3wLTKtBV9vs/2IIdHsLPPFn2GHlYJw2tjo/Piq5ZShlEaGFT03DEdN1/K7Dj NEps6DNk/A7WU9t5Fi8+qrgQQCklGUegU3uc3Djkes8UqsI1xGiZ72PHL0aAv3TK ji9G7yPr9UVMerB8zOJDNRkogkeAtxjltH0Lukv1k/OvhV9MaTZgdv8bDvw= -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIIezCCBmOgAwIBAgIQccay85KODNeWCZUp4INUtzANBgkqhkiG9w0BAQsFADB9 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAy IDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEd MBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjIwOTExMjIwMDAwWhcN MjMxMDEzMjE1OTU5WjCBgzELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBBUklTMSYw JAYDVQQKDB1HT1VWRVJORU1FTlQgUFJFTUlFUiBNSU5JU1RSRTEnMCUGA1UEAwwe bWF0cml4LXNpci5hZ2VudC50Y2hhcC5nb3V2LmZyMRMwEQYDVQQFEwpTMjQ4Mzgw NDY5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7sEkjH94v2rYem7w h09bfSq73nTCwuAJAmaqDbPM3Wx7KXc9+tk7hSDdn4n0qxOHwyWvOaPNHojmCcLU U2VRAu1mDI2MDqfEe1B6NhmhtfG4RetlmXyCZVkSxJbPm5W0Oeg213lG3DtDGO4w Inpcy/YZ3qa7/gQC37r2Ju/1QUgUrOmq5K3UdssNNlU9Tj6TjTG3KPV1zDDELgxt KkBStYRx3Jn+ZQ3vCl4EGiPhiqI4MzsT/KHDVJ0sEt4ENmhRne1itH72aK/JMQZY UE/HfYbl5G95yHZGzbOf8l3cfbvYSKJB/kzlhdBT/2UNnCb1UwkN//yBDIzKrHxw udyXXwIDAQABo4ID7jCCA+owgeQGCCsGAQUFBwEBBIHXMIHUMDgGCCsGAQUFBzAC hixodHRwOi8vYXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjA2 BggrBgEFBQcwAoYqaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZyL3NlcnZpY2Vz Y2EuZGVyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15 b3Rpcy5jb20wLgYIKwYBBQUHMAGGImh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuY2Vy dGlnbmEuZnIwHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwCQYDVR0T BAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsG AQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlm aWNhdGlvbjBlBgNVHR8EXjBcMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZy L3NlcnZpY2VzY2EuY3JsMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20v c2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQD AgWgMEUGA1UdEQQ+MDyCHm1hdHJpeC1zaXIuYWdlbnQudGNoYXAuZ291di5mcoIa bWF0cml4LmFnZW50LnRjaGFwLmdvdXYuZnIwHQYDVR0OBBYEFHe0wP0nlL+Z0dd6 cVy0KvZrxQt/MIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwCt9776fP8QyIud PZwePhhqtGcpXc+xDCTKhYY069yCigAAAYMyl3jNAAAEAwBIMEYCIQCw2pOKvusS qD2AK3ne7NA2xESBpXPMePkczlPL90d4WQIhAJ8+GNcmlIS9jCNppg4vLLJqmWez 9JNpTrlvheIDXtlBAHUA6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4A AAGDMpd+lQAABAMARjBEAiBYjtiw50WOfdXLL40EFqEL4ec/wNXS88HXjY6Z4B+2 /gIgTwev2tk6naqXGLNSmZYvGaSR09MayparXClRxlXHc2EAdgCzc3cH4YRQ+GOG 1gWp3BEJSnktsWcMC4fc8AMOeTalmgAAAYMyl4JNAAAEAwBHMEUCIQD/9aUj74oK 9CS629QXsRkhFFMqmfyFkdS+RNKy79j5rAIgDzoPfvYXQfi8dCYg+Fs4sAOzISDQ G3henA5iPU6stOcwDQYJKoZIhvcNAQELBQADggIBAD9OvKfKMUePJXsFK5ofBrQe WokQzEWGdtYWDQMGzmeZZ6QyOjsKG0KHmkMfXCENYm1wXXewqV2y2+wNUg8/vjAM vckH/63s1b9E6LjR4I7Yf7kW9jGKdQU4Gs9iIU1t0w4S0nc8yd3VbCBBfdjVlCZL 6nHWUOEXj/5CaXGiDqtwEDSQKt7wITQIdfy0GFS1j/+lVuNYKyeiQAHHpuv6ejyR 1pJHCFHchOESlosBNwSTRoD/uI1i8Ndy91LjP2eGATSTm6BMZdvMYpOCk8AZOfm8 LBtM45m/SGYXR6Dtai0B6a0l2AFvVcMMAAtcL+agoMSOAEZiojPkGLTqFb1S7a+v 3ZmNVS/ywVqVsAvWD9+xZud5dSHJfFJbz0pVpoK/KEzWAfwdUBjXlb/hIzvQA+xL wo3mu41/2U0mPX2tMrBI7soRjrhggKQI1B4li7uOxAgN7Pu2ykdSHk8i2lL6RIVC YXM+0RrWqTPMZUfXK2o0CXKXuJAgV0ORTMwThc0AqdwQrQV4qYhQPs08bBXMNqvP m99rYeSf9V9nrQPP4vvYjq9Aws1yJKXuy2MOti8QR9/n1YjkpuRw7XC7Z6tgwClf 3y7mTwinLSdLwMH+fbfCB7Il1tCMtQInr2zzCcOJsCtQlP/ERCJnUU7tMNNH0mBP ysvS7GTNF8jN5avLqIUi -----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "matrix.agent.tchap.gouv.fr matrix-sir.agent.tchap.gouv.fr"
+              "finding"      : "matrix-sir.agent.tchap.gouv.fr matrix.agent.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -332,7 +332,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (chain incomplete)  , OK -> Mozilla Microsoft Linux Apple"
+              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Apple"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (40)"
+              "severity"     : "OK",
+              "finding"      : "390 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2021-10-21 22:00"
+              "finding"      : "2022-09-11 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2022-10-21 21:59"
+              "severity"     : "OK",
+              "finding"      : "2023-10-13 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -423,7 +423,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2"
+              "finding"      : "3"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -482,6 +482,48 @@
               "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNV BAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4X DTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQ BgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4 QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxny gQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbw zBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q 130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2 JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkw DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEw ZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYT AkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzj AQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG 9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8h bV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFnc fca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuu HWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6w t0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/Qw WyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2007-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna <-- Certigna"
+          }
+,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
@@ -507,7 +549,7 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1662855085"
+              "finding"      : "1663459778"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +722,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=55170C0B3E56AE451EA80D72E989797F1DAC6A392217F775A892B5FF4B78C7D2"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3810AC8E8A24855A49B65E3DBAE04B0077AC714994E9D1B2508A8C2BA934B171"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1105,6 @@
               "ip"           : "matrix.agent.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "136"
+              "finding"      : "94"
           }
 ]
