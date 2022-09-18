@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Sep 11 01:06:41 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.finances.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Sep 18 01:05:02 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.finances.tchap.gouv.fr
 Host: 143.196.253.101 ()	Status: Up
-Host: 143.196.253.101 ()	Ports: 443/open/tcp//ssl|https///, 1108/open/tcp//tcpwrapped///, 1434/open/tcp//tcpwrapped///, 4126/open/tcp//tcpwrapped///, 5357/open/tcp//tcpwrapped///, 16016/open/tcp//tcpwrapped///, 32772/open/tcp//tcpwrapped///	Ignored State: filtered (993)
-# Nmap done at Sun Sep 11 01:08:45 2022 -- 1 IP address (1 host up) scanned in 124.59 seconds
+Host: 143.196.253.101 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
+# Nmap done at Sun Sep 18 01:07:15 2022 -- 1 IP address (1 host up) scanned in 132.70 seconds
