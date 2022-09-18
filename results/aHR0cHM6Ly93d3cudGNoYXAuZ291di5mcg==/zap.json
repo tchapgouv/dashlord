@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 11 Sep 2022 00:05:56",
+	"@generated": "Sun, 18 Sep 2022 00:04:41",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -117,7 +117,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10010",
@@ -418,34 +418,20 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-dark.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "10000000"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-light.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "10000000"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-tchap.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "10000000"
+							"evidence": "1431655765"
 						}
 					],
-					"count": "3",
+					"count": "1",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>10000000, which evaluates to: 1970-04-26 17:46:40</p>",
+					"otherinfo": "<p>1431655765, which evaluates to: 2015-05-15 02:09:25</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "39"
+					"sourceid": "44"
 				},
 				{
 					"pluginid": "10027",
@@ -453,10 +439,66 @@
 					"alert": "Information Disclosure - Suspicious Comments",
 					"name": "Information Disclosure - Suspicious Comments",
 					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "administrator"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "bug"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "DB"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "TODO"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user"
+						},
 						{
 							"uri": "https://www.tchap.gouv.fr",
 							"method": "GET",
@@ -465,13 +507,13 @@
 							"evidence": "TODO"
 						}
 					],
-					"count": "1",
+					"count": "9",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bTODO\\b and was detected in the element starting with: \"<!-- TODO: Translate this? -->\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bADMINISTRATOR\\b and was detected in the element starting with: \" */(function(){var i=\"Expected a function\",a=\"__lodash_placeholder__\",s=[[\"ary\",128],[\"bind\",1],[\"bindKey\",2],[\"curry\",8],[\"curr\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "44"
 				},
 				{
 					"pluginid": "10015",
@@ -479,8 +521,8 @@
 					"alert": "Re-examine Cache-control Directives",
 					"name": "Re-examine Cache-control Directives",
 					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
@@ -494,7 +536,7 @@
 					"count": "1",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
 					"sourceid": "1"
