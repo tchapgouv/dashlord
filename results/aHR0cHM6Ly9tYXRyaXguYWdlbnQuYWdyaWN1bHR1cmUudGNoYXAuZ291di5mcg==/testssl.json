@@ -199,14 +199,14 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -269,7 +269,7 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C5B6C0A7EBD09366DDA9D2A91BC0E700"
+              "finding"      : "E2B76205AB35717C3A8EBD21E07B68B2"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "767355804E2906FA5010736011DB82FD50339C7A"
+              "finding"      : "2381256FFBB8A12090EA93020DD11491A671D841"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDEA914E02BFFDDDC4B296B35B04ECAA27F744CC48545FF6C3FC4B0FBF2B2CE"
+              "finding"      : "5E41AC11F50C9556236C792EDF02210F0EBA53DA00236CBCEF15E1699843E256"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIIvjCCBqagAwIBAgIRAMW2wKfr0JNm3anSqRvA5wAwDQYJKoZIhvcNAQELBQAw fTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAw MiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYx HTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTIxMTAyMTIyMDAwMFoX DTIyMTAyMTIxNTk1OVowga0xCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEm MCQGA1UECgwdR09VVkVSTkVNRU5UIFBSRU1JRVIgTUlOSVNUUkUxHDAaBgNVBAsM EzAwMDIgMTEwMDAxMDEzMDAwMTcxMzAxBgNVBAMMKm1hdHJpeC1zaXIuYWdlbnQu YWdyaWN1bHR1cmUudGNoYXAuZ291di5mcjETMBEGA1UEBRMKUzIxNTg5MTczMzCC ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL3xKR4Zkjqox8Yqi5/LcFmw yzh9208VA9RI2kSY+A6UwFQMhfRN+chN0+S7BCfr0nqBHDI/lOkPzu3X4Pr+O5ld bKtbQacS0ZiMtoX5w94+6I6qWH9eMSgeCxc1od5h1bLMf8T411IbSoApVfhUpD4x uo4W25ErPLtZ3mlOxPooXQ3/gH9k4Kl5KNqq3hKO+YkCmnuh7EYDuqPBorvLsom/ rvUuJrmEhXTxK4mRKXOrUQYNoB750F11LVFQc51jtHcsHXMlsaFMSlIRmvVMkkbE D+W0uLTzl+B9E7CYYNXKJZEN4MjLRwWglbHv4M3wjjxbXZ6WSiLSHgpGSMGEik8C AwEAAaOCBAYwggQCMIHkBggrBgEFBQcBAQSB1zCB1DA4BggrBgEFBQcwAoYsaHR0 cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwNgYIKwYB BQUHMAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRl cjAuBggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5m cjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMu Y29tMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAkGA1UdEwQCMAAw YQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcC ARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRp b24wZQYDVR0fBF4wXDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3Nl cnZpY2VzY2EuY3JsMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZp Y2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDBd BgNVHREEVjBUgiptYXRyaXgtc2lyLmFnZW50LmFncmljdWx0dXJlLnRjaGFwLmdv dXYuZnKCJm1hdHJpeC5hZ2VudC5hZ3JpY3VsdHVyZS50Y2hhcC5nb3V2LmZyMB0G A1UdDgQWBBRCkP4BUe6sU6+MOmySSY4tWVI7ADCCAX4GCisGAQQB1nkCBAIEggFu BIIBagFoAHUAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAF8qHB1 JgAABAMARjBEAiAc815nmaRVEEvPMDuz0512jQn9e7YpTsFca4mWr9oYhgIgO73d yQXDF2IsUJBN8FlX9pcGdNqaRbvMtjniGhxNQ6sAdgBGpVXrdfqRIDC1oolp9PN9 ESxBdL79SbiFq/L8cP5tRwAAAXyocHEpAAAEAwBHMEUCIGNhaySO0Lp4LsvVOHx8 +G6tldDimYUj9HfvOvh7VS9CAiEAsR+R97BlJiJObBcci5Gl0tTDHRt+axLYcJv+ Vmb9AjMAdwBvU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbIImjfZEwAAAXyocHiv AAAEAwBIMEYCIQDK5kXgpFe09AjMlyxohdZe3S7GxpP0C7PhaydKZ//5lAIhAIjQ TgpPA0S+LNkdHf0JSWpG+U/VsFjWvp2QJiMsB6ctMA0GCSqGSIb3DQEBCwUAA4IC AQBv8c7knRnBpoCQ0sItht0MiEbkXbXua3X23ofy16qpc4DYzGSUMrDxJQpcYo+w dxpJqEDae1OcpXZjqa8rfiAalfxxsy40fl31j/0WOMm+yo73K5PUpWpu0i3nnNyQ AlVAuWsTkfjML0f/ZKx8wGAh0pdwsuB2mG1v9awI5c9cI/dAqceQGg7NkYTXeWhD Tvj38Oep2Z4z2L9uGmtF9H1x83VPZT54VBhzF0paPxDwH87aL0bKnWDGtm1Mce4/ LRZvix3EHaanh6y06XbtDLDtnqkX2k1iymh5+K6Il3gV7PvlDTKe3nfYKUds6hT2 X6DSQZ82Sh77OdSa9hGQFVTQjx+MlDXfVHr1a4hLeefwSaxN3iOaT5njZimmfDYb dMnIGkn8MmfdTNgoGtbHb9GyWhXpG+T7EZYOcvcNVGnGrqxEQ/rQB/PCchibuHBY vXeSVW9C02+OgRb3KglsKFe2XU7+DzZTC8bzqq/yDvo8USGWMl6Wa1QH9HgGl3FO MqhMIqYsygVV3/x52WbhU1IZ5RdvxAQMN2sA1XWqwRAkhOfNFLN6sJ4IW7qTyQqe 4qHNgs5S7+chfY1xVeeweDuSYdYwmRnP8f5THQmOhltx5L3e+RdWEoObJD2U9Jx6 ud6zkZM7scd5+GTdLA1Pp4IKyCdkZntJxJXAKWTZlKUFsw== -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIIoDCCBoigAwIBAgIRAOK3YgWrNXF8Oo69IeB7aLIwDQYJKoZIhvcNAQELBQAw fTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAw MiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYx HTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTIyMDkxMTIyMDAwMFoX DTIzMTAxMzIxNTk1OVowgY8xCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEm MCQGA1UECgwdR09VVkVSTkVNRU5UIFBSRU1JRVIgTUlOSVNUUkUxMzAxBgNVBAMM Km1hdHJpeC1zaXIuYWdlbnQuYWdyaWN1bHR1cmUudGNoYXAuZ291di5mcjETMBEG A1UEBRMKUzI0ODMyMDQ3MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB AKXreVzbLSzFak0i32gCxAYYopiCwDphDgzA0Z/XcVIdLKYT8oIP6YTza2BTrDZS Lo18T1FKKb+ujYEPVfHF7VXmbfG1c8njIjfV406bVxdhgul37VWJimKAFlrvE506 fhJnaci4gLd8x/oIxwDoleGsGORnwyo3aOxqHP043iKsT1JbRPwkbNzN1cK5lJ7H +YyO58bmgyBAPuGfZaeF0yJxDqhW8Wfg1DlTwmxbL3HxCBbHg7AmXsP8QepCHa9t /tnGBUA0bDSgLYEc924kFpWxg14vCTvNM2e0XMJuF9Uf8GEPkgsRA/Tve5aQN4Ib S1awtYFaeNrJIRU3PuzR4v0CAwEAAaOCBAYwggQCMIHkBggrBgEFBQcBAQSB1zCB 1DA4BggrBgEFBQcwAoYsaHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2Vy dmljZXNjYS5kZXIwNgYIKwYBBQUHMAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWdu YS5mci9zZXJ2aWNlc2NhLmRlcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2Vz Y2Eub2NzcC5kaGlteW90aXMuY29tMC4GCCsGAQUFBzABhiJodHRwOi8vc2Vydmlj ZXNjYS5vY3NwLmNlcnRpZ25hLmZyMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu 6E7jNFwSMAkGA1UdEwQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYEx AgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1 dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAroCmgJ4YlaHR0cDovL2Ny bC5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmNybDAtoCugKYYnaHR0cDovL2NybC5k aGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMB MA4GA1UdDwEB/wQEAwIFoDBdBgNVHREEVjBUgiZtYXRyaXguYWdlbnQuYWdyaWN1 bHR1cmUudGNoYXAuZ291di5mcoIqbWF0cml4LXNpci5hZ2VudC5hZ3JpY3VsdHVy ZS50Y2hhcC5nb3V2LmZyMB0GA1UdDgQWBBQy4TSd8nnxkXysLdL1YZ6Q2fS8SjCC AX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYArfe++nz/EMiLnT2cHj4YarRnKV3P sQwkyoWGNOvcgooAAAGDMpu78QAABAMARzBFAiAluySxAEpvmJFiPrSg6ozLU9yC MBmC5Nk3WOqqH3R1AQIhANeV2gSKdo0wOZ/0yNiKH30w/iGiMKr2u2CzdW0VOhzn AHYA6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAGDMpu8HAAABAMA RzBFAiBGRMES1jvRx2q20WKjv7wQQbV3FobW2eelFDvuX4d9IAIhAKRrvVcyZh0r OKt1u/mR7ull7B9bp/3D5II5+JhXXeudAHYAs3N3B+GEUPhjhtYFqdwRCUp5LbFn DAuH3PADDnk2pZoAAAGDMpu/5wAABAMARzBFAiEA8OgyHrRK7MOkBDYDE1ncwOcp CBH+kTqXE0KXl7CaUCYCIFs6Rg6M3Fps95LS3OSZEA/uy1XDLBf1quvk2eybq8d7 MA0GCSqGSIb3DQEBCwUAA4ICAQCkoisIEycOGWFNh7FlJ+tA/nviWpDVGUqlmu53 EO6GHEmv++OTKomab7SpAfEHt0y9PUPp4zUeaL7Y9nBflV9cU2lliDwEbroMEkqO p8xsGJWF4PMAAxHwYepmFWsT7IFBIA1tPBSBvt6SxF+mSdpBojmQMIu+DXBT2Ag1 COKxV7NP8dSuq3sHhy+MM67RQ1QjnXPj3hYKN7HTDbqOjThTN2ykfPcoeDeA+xCM iDC1kLRZASzFBBC4S6/2xbL4TkStdTacXFGO9LoUO/+Nqsap86xVl5qvchK5k9HA ZFbXNJf5F3iMDse/j9EG19JHktwksOlqe4+BvelbnmzKmKuEd8ixcSD1eEFv780l 7MJZf6ppMQBOCHGpvu3UUoqxnaFER3BMLXkwWA0q6r28jhww6JzJhJJraEo+us+9 NuauJtxZ27i4V4C8RA2LakhtMb8lU6WCNG/iVNlKb/GGM/uPm7mZTQdexupuZng4 dWgtsfkXHkwZRjDrJtBylZW22bEt9W5zSvEJ33UBlEY9uRjYV8Lci6qKlFru+L2G 4D/3JEMx4RnGJLKjAXfFT42tpJMgRL9GiD0bv8fJ2+GUDdbDr+lleh7/ZnsljbmL 15sP57+kuxNWkt3pTVP4++dlA825DzJJrrs60Hk2oMBn6SWSQJE55i+JEZwxYm62 /wXLJA== -----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "matrix-sir.agent.agriculture.tchap.gouv.fr matrix.agent.agriculture.tchap.gouv.fr"
+              "finding"      : "matrix.agent.agriculture.tchap.gouv.fr matrix-sir.agent.agriculture.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -332,7 +332,7 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (chain incomplete)  , OK -> Mozilla Microsoft Linux Apple"
+              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Apple"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (40)"
+              "severity"     : "OK",
+              "finding"      : "390 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2021-10-21 22:00"
+              "finding"      : "2022-09-11 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2022-10-21 21:59"
+              "severity"     : "OK",
+              "finding"      : "2023-10-13 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -423,7 +423,7 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2"
+              "finding"      : "3"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -482,6 +482,48 @@
               "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNV BAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4X DTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQ BgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4 QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxny gQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbw zBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q 130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2 JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkw DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEw ZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYT AkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzj AQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG 9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8h bV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFnc fca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuu HWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6w t0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/Qw WyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2007-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna <-- Certigna"
+          }
+,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
@@ -500,14 +542,14 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1662855055"
+              "finding"      : "1663459849"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +722,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ECDEA914E02BFFDDDC4B296B35B04ECAA27F744CC48545FF6C3FC4B0FBF2B2CE"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5E41AC11F50C9556236C792EDF02210F0EBA53DA00236CBCEF15E1699843E256"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1105,6 @@
               "ip"           : "matrix.agent.agriculture.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "140"
+              "finding"      : "152"
           }
 ]
