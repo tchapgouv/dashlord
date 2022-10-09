@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 2 Oct 2022 01:20:24",
+	"@generated": "Sun, 9 Oct 2022 00:56:58",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.intradef.tchap.gouv.fr",
@@ -75,6 +75,93 @@
 					"sourceid": "1"
 				},
 				{
+					"pluginid": "10063",
+					"alertRef": "10063-1",
+					"alert": "Permissions Policy Header Not Set",
+					"name": "Permissions Policy Header Not Set",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
+					"instances":[ 
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10035",
+					"alertRef": "10035",
+					"alert": "Strict-Transport-Security Header Not Set",
+					"name": "Strict-Transport-Security Header Not Set",
+					"riskcode": "1",
+					"confidence": "3",
+					"riskdesc": "Low (High)",
+					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
+					"instances":[ 
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/images/tchap192.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "4",
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
+					"cweid": "319",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
 					"pluginid": "10021",
 					"alertRef": "10021",
 					"alert": "X-Content-Type-Options Header Missing",
@@ -134,6 +221,32 @@
 					"sourceid": "1"
 				},
 				{
+					"pluginid": "10109",
+					"alertRef": "10109",
+					"alert": "Modern Web Application",
+					"name": "Modern Web Application",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
+					"instances":[ 
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\">\n\n\t/**\n\t * This function remove the newly created device.\n\t * The param 'inhibit_login' cannot be used in the registration request because the password is not renewed and we don't have access to it here.\n\t * @param accessToken The access token given back by the register request.\n\t */\n\tfunction requestLogout(accessToken) {\n\t\tvar req = new XMLHttpRequest();\n\t\tvar loc = window.location;\n\n\t\treq.open('POST', loc.origin + '/_matrix/client/r0/logout', true);\n\t\tif (accessToken) {\n\t\t\treq.setRequestHeader(\"Authorization\", \"Bearer \" + accessToken);\n\t\t\treq.send(null);\n\t\t}\n\t}\n\n\t/**\n\t * This function request the registration for the user.\n\t */\n\tfunction requestRegister() {\n\t\tvar req = new XMLHttpRequest();\n\t\tvar msg = document.getElementById('msg');\n\t\tvar loc = window.location;\n\t\tvar params = {};\n\t\tparams.body = generateBody(loc.href);\n\n\t\treq.onreadystatechange = function() {\n\t\t\tif (this.readyState === XMLHttpRequest.DONE) {\n\t\t\t\tif (this.status === 0) {\n\t\t\t\t\t// Nothing here, but we have to do this to prevent early state change without any server response.\n\t\t\t\t\tmsg.innerHTML = '<div id=\"loader\"></div>';\n\t\t\t\t} else if (this.status === 200) {\n\t\t\t\t\tvar res = JSON.parse(this.response);\n\t\t\t\t\tmsg.innerHTML = '<p>Votre inscription est termin\u00E9e.</p><p>Vous pouvez d\u00E8s \u00E0 pr\u00E9sent vous connecter en utilisant vos identifiants sur l\\'\u00E9cran de connexion.</p>';\n\t\t\t\t\trequestLogout(res.access_token);\n\t\t\t\t} else {\n\t\t\t\t\tmsg.innerHTML = '<p>Une erreur est survenue lors de votre inscription. Merci de r\u00E9essayer plus tard.</p>';\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\n\t\treq.open('POST', loc.origin + '/_matrix/client/r0/register', true);\n\t\tif (params && params.body) {\n\t\t\treq.setRequestHeader(\"Content-Type\", 'application/json');\n\t\t\treq.send(JSON.stringify(params.body));\n\t\t}\n\t}\n\n\t/**\n\t * This function return a query string parameter value from an url.\n\t * @param url The url to seach on.\n\t * @param param The query string parameter requested.\n\t * @returns {string} The value of the requested query string parameter\n\t */\n\tfunction getUrlParam(url, param) {\n\t\tvar sPart = url.split('?');\n\t\tvar params = sPart[1].split('&');\n\t\tfor (var i = 0; i < params.length; i++) {\n\t\t\tvar kv = params[i].split('=');\n\t\t\tif (kv[0] === param) {\n\t\t\t\treturn decodeURIComponent(kv[1]);\n\t\t\t}\n\t\t}\n\t}\n\n\t/**\n\t * This function generate a body for the registration request from the curent url.\n\t * @param loc The url containing the parameters.\n\t */\n\tfunction generateBody(loc) {\n\t\tvar body = {};\n\t\tvar threepid_creds = {};\n\t\tbody.auth = {};\n\t\tbody.auth.type = 'm.login.email.identity';\n\t\tbody.auth.session = getUrlParam(loc, 'session_id');\n\t\tthreepid_creds.sid = getUrlParam(loc, 'sid');\n\t\tthreepid_creds.client_secret = getUrlParam(loc, 'client_secret');\n\t\tbody.auth.threepid_creds = threepid_creds;\n\n\t\treturn body;\n\t}\n\n\tfunction update() {\n\t\tvar strRegister = '#/register';\n\t\tvar loc = window.location;\n\t\tif (loc.hash && loc.hash.substr(0,strRegister.length) === strRegister) {\n\t\t\trequestRegister();\n\t\t}\n    else {\n      msg.innerHTML = msg.innerHTML + '<p>Si vous venez de cliquer sur le lien du mail d\\'inscription, l\\'affichage de cette page signifie que l\\'inscription a \u00E9chou\u00E9.<br>Validez de nouveau le lien d\\'inscription pour r\u00E9soudre le probl\u00E8me.</p>';\n      }\n      \n      \n\t}\n\twindow.onload = update;\n\twindow.onhashchange = update;\n</script>"
+						}
+					],
+					"count": "1",
+					"solution": "<p>This is an informational alert and so no changes are required.</p>",
+					"otherinfo": "<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>",
+					"reference": "",
+					"cweid": "-1",
+					"wascid": "-1",
+					"sourceid": "1"
+				},
+				{
 					"pluginid": "10015",
 					"alertRef": "10015",
 					"alert": "Re-examine Cache-control Directives",
@@ -156,6 +269,53 @@
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10049",
+					"alertRef": "10049",
+					"alert": "Storable and Cacheable Content",
+					"name": "Storable and Cacheable Content",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
+					"instances":[ 
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/images/tchap192.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://matrix.agent.intradef.tchap.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						}
+					],
+					"count": "4",
+					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
+					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
+					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
+					"cweid": "524",
 					"wascid": "13",
 					"sourceid": "1"
 				}
