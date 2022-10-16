@@ -346,7 +346,7 @@
               "ip"           : "matrix.agent.dinum.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "369 >= 60 days"
+              "finding"      : "362 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "matrix.agent.dinum.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1665275795"
+              "finding"      : "1665880482"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "matrix.agent.dinum.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "160"
+              "finding"      : "96"
           }
 ]
