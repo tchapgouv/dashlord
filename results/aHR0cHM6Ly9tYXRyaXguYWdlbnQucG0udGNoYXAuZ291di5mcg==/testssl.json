@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.pm.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "matrix.agent.pm.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "369 >= 60 days"
+              "finding"      : "362 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "matrix.agent.pm.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1665277525"
+              "finding"      : "1665882381"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "matrix.agent.pm.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "97"
+              "finding"      : "107"
           }
 ]
