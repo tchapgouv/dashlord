@@ -6,7 +6,7 @@
       "value": "version_current",
       "domain": "www.tchap.gouv.fr",
       "path": "/",
-      "expires": 1696814103.904698,
+      "expires": 1697418851.912512,
       "size": 33,
       "httpOnly": false,
       "secure": false,
@@ -17,21 +17,16 @@
     }
   ],
   "headers": {
+    "cache-control": "max-age=0\nno-store",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-security-policy": "frame-ancestors 'self'",
     "content-type": "text/html",
-    "date": "Sun, 09 Oct 2022 00:08:21 GMT",
+    "date": "Sun, 16 Oct 2022 00:07:29 GMT",
     "etag": "W/\"6318bac3-e9a\"",
+    "expires": "Sun, 16 Oct 2022 00:07:29 GMT",
     "keep-alive": "timeout=5, max=300",
     "last-modified": "Wed, 07 Sep 2022 15:37:39 GMT",
-    "referrer-policy": "no-referrer",
-    "set-cookie": "split_test_version=version_current; Path=/; Max-Age=31540000",
-    "strict-transport-security": "max-age=31536000; includeSubdomains",
-    "transfer-encoding": "chunked",
-    "x-content-type-options": "nosniff",
-    "x-frame-options": "SAMEORIGIN",
-    "x-xss-protection": "1; mode=block"
+    "transfer-encoding": "chunked"
   },
   "endpoints": [
     {
