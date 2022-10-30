@@ -1,6 +1,6 @@
 {
-	"@version": "2.11.1",
-	"@generated": "Sun, 23 Oct 2022 01:04:25",
+	"@version": "2.12.0",
+	"@generated": "Sun, 30 Oct 2022 01:02:47",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.pm.tchap.gouv.fr",
