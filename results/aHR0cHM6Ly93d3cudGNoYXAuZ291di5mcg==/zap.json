@@ -1,6 +1,6 @@
 {
-	"@version": "2.11.1",
-	"@generated": "Sun, 23 Oct 2022 00:07:18",
+	"@version": "2.12.0",
+	"@generated": "Sun, 30 Oct 2022 00:05:24",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -46,7 +46,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10020",
@@ -87,86 +87,86 @@
 						{
 							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.css",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-light.css",
+							"uri": "https://www.tchap.gouv.fr/img/warning.05cc423.svg",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-120x120.b90bf98.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-144x144.62efd1a.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-152x152.71953dd.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180x180.bb6d2e7.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57x57.329347e.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-60x60.c62b9df.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-72x72.e276ebf.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						}
 					],
 					"count": "12",
@@ -175,204 +175,101 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "36"
-				},
-				{
-					"pluginid": "10011",
-					"alertRef": "10011",
-					"alert": "Cookie Without Secure Flag",
-					"name": "Cookie Without Secure Flag",
-					"riskcode": "1",
-					"confidence": "2",
-					"riskdesc": "Low (Medium)",
-					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.css",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-light.css",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-120x120.b90bf98.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-144x144.62efd1a.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-152x152.71953dd.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180x180.bb6d2e7.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57x57.329347e.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-60x60.c62b9df.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-72x72.e276ebf.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
-							"method": "GET",
-							"param": "split_test_version",
-							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
-						}
-					],
-					"count": "12",
-					"solution": "<p>Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
-					"cweid": "614",
-					"wascid": "13",
-					"sourceid": "36"
+					"sourceid": "37"
 				},
 				{
 					"pluginid": "10054",
 					"alertRef": "10054",
-					"alert": "Cookie without SameSite Attribute",
-					"name": "Cookie without SameSite Attribute",
+					"alert": "Cookie with SameSite Attribute None",
+					"name": "Cookie with SameSite Attribute None",
 					"riskcode": "1",
 					"confidence": "2",
 					"riskdesc": "Low (Medium)",
-					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
 							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.css",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-light.css",
+							"uri": "https://www.tchap.gouv.fr/img/warning.05cc423.svg",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114x114.9bd6cbf.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-120x120.b90bf98.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-144x144.62efd1a.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-152x152.71953dd.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180x180.bb6d2e7.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57x57.329347e.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-60x60.c62b9df.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-72x72.e276ebf.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76x76.bf24f02.png",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.d8fe528.ico",
 							"method": "GET",
-							"param": "split_test_version",
+							"param": "tchap_split_version",
 							"attack": "",
-							"evidence": "Set-Cookie: split_test_version"
+							"evidence": "Set-Cookie: tchap_split_version"
 						}
 					],
 					"count": "12",
@@ -381,7 +278,33 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "36"
+					"sourceid": "37"
+				},
+				{
+					"pluginid": "10110",
+					"alertRef": "10110",
+					"alert": "Dangerous JS Functions",
+					"name": "Dangerous JS Functions",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval"
+						}
+					],
+					"count": "1",
+					"solution": "<p>See the references for security advice on the use of these functions.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://angular.io/guide/security</p>",
+					"cweid": "749",
+					"wascid": "-1",
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10063",
@@ -395,6 +318,13 @@
 					"instances":[ 
 						{
 							"uri": "https://www.tchap.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -415,7 +345,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -464,6 +394,32 @@
 					"sourceid": "1"
 				},
 				{
+					"pluginid": "10096",
+					"alertRef": "10096",
+					"alert": "Timestamp Disclosure - Unix",
+					"name": "Timestamp Disclosure - Unix",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1431655765"
+						}
+					],
+					"count": "1",
+					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
+					"otherinfo": "<p>1431655765, which evaluates to: 2015-05-15 02:09:25</p>",
+					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
+					"cweid": "200",
+					"wascid": "13",
+					"sourceid": "46"
+				},
+				{
 					"pluginid": "10021",
 					"alertRef": "10021",
 					"alert": "X-Content-Type-Options Header Missing",
@@ -487,7 +443,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -505,6 +461,13 @@
 							"param": "",
 							"attack": "",
 							"evidence": "public-DraftStyleDefault-depth0"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "getForwardingCurve25519KeyChain"
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/theme-dark.css",
@@ -528,13 +491,13 @@
 							"evidence": "com/alexeiva/NunitoFont/releases/tag/v3"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\u03C3\uFFFD\uFFFD\uFFFDJ\u0725x7\uFFFDj\uFFFDm\uFFFD\u05E9\uFFFD\\x001d</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "36"
+					"sourceid": "37"
 				},
 				{
 					"pluginid": "10027",
@@ -542,10 +505,66 @@
 					"alert": "Information Disclosure - Suspicious Comments",
 					"name": "Information Disclosure - Suspicious Comments",
 					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "administrator"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "bug"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "DB"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "TODO"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/bundles/58502f21e552fb4d77ad/bundle.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user"
+						},
 						{
 							"uri": "https://www.tchap.gouv.fr",
 							"method": "GET",
@@ -554,13 +573,13 @@
 							"evidence": "TODO"
 						}
 					],
-					"count": "1",
+					"count": "9",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bTODO\\b and was detected in the element starting with: \"<!-- TODO: Translate this? -->\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bADMINISTRATOR\\b and was detected in the element starting with: \" */(function(){var i=\"Expected a function\",a=\"__lodash_placeholder__\",s=[[\"ary\",128],[\"bind\",1],[\"bindKey\",2],[\"curry\",8],[\"curr\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "46"
 				},
 				{
 					"pluginid": "10109",
@@ -630,15 +649,22 @@
 							"param": "Cache-Control",
 							"attack": "",
 							"evidence": "max-age=0, no-store"
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/browserconfig.e54b06e.xml",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": ""
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -693,6 +719,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180x180.bb6d2e7.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57x57.329347e.png",
 							"method": "GET",
 							"param": "",
@@ -721,13 +754,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "25"
 				}
 			]
 		}
