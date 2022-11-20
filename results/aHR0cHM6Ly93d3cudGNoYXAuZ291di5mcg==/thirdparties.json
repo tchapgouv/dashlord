@@ -3,11 +3,11 @@
   "cookies": [
     {
       "name": "tchap_split_version",
-      "value": "version_current",
+      "value": "version_new",
       "domain": "www.tchap.gouv.fr",
       "path": "/",
-      "expires": 1699837949.747098,
-      "size": 34,
+      "expires": 1700442806.297175,
+      "size": 30,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -22,9 +22,9 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 13 Nov 2022 00:05:47 GMT",
+    "date": "Sun, 20 Nov 2022 00:06:43 GMT",
     "etag": "W/\"6318bac3-e9a\"",
-    "expires": "Sun, 13 Nov 2022 00:05:47 GMT",
+    "expires": "Sun, 20 Nov 2022 00:06:43 GMT",
     "keep-alive": "timeout=5, max=300",
     "last-modified": "Wed, 07 Sep 2022 15:37:39 GMT",
     "transfer-encoding": "chunked"
