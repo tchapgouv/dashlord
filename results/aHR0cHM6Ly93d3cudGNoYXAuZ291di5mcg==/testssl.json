@@ -192,14 +192,14 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -304,7 +304,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "app-sir.beta.tchap.gouv.fr"
+              "finding"      : "www.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -318,7 +318,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+              "finding"      : "Ok via SAN and CN (same w/o SNI)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
@@ -339,7 +339,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "347 >= 60 days"
+              "finding"      : "340 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1671322196"
+              "finding"      : "1671926874"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -574,15 +574,6 @@
               "cve"          : "CVE-2014-0160",
               "cwe"          : "CWE-119",
               "finding"      : "not vulnerable , timed out"
-          }
-,         {
-              "id"           : "CCS",
-              "ip"           : "www.tchap.gouv.fr/143.196.253.119",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2014-0224",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ticketbleed",
@@ -1070,6 +1061,6 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "450"
           }
 ]

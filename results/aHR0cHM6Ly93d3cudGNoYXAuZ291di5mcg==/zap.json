@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 18 Dec 2022 00:07:28",
+	"@generated": "Sun, 25 Dec 2022 00:05:30",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -298,7 +298,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "81"
+					"sourceid": "79"
 				},
 				{
 					"pluginid": "10063",
@@ -345,7 +345,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -418,7 +418,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "81"
+					"sourceid": "79"
 				},
 				{
 					"pluginid": "10021",
@@ -531,7 +531,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "81"
+					"sourceid": "79"
 				},
 				{
 					"pluginid": "10109",
@@ -564,7 +564,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -590,7 +590,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -678,7 +678,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-152.14fd000.png",
+							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180.c936b75.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
