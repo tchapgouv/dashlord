@@ -21,11 +21,11 @@
 ###########################################################</span>
 
  Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az412-3:/home/testssl/bin/openssl.Linux.x86_64
+ on fv-az616-780:/home/testssl/bin/openssl.Linux.x86_64
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2022-12-18 00:09:14        --&gt;&gt; 143.196.253.119:443 (www.tchap.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2022-12-25 00:07:13        --&gt;&gt; 143.196.253.119:443 (www.tchap.gouv.fr) &lt;&lt;--</span>
 
  rDNS (143.196.253.119): --
  Service detected:       HTTP
@@ -89,7 +89,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;application layer protocol negotiation/#16&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>300 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: yes
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Client Authentication        </span>none
 <span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">SHA256 with RSA</span>
@@ -99,13 +99,13 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Serial                       </span>E1E13098AD1E7446D80D0F8FCBF6472D (OK: length 16)
 <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 F8BB69DC733C00121511433F9D354825EE0729A1
                               SHA256 7B12A7E66EC3CE466AC023879064F7C0B7A52607836197FB279E5FF638EC3593
-<span style="font-weight:bold;"> Common Name (CN)             </span><i>www.tchap.gouv.fr </i> (CN in response to request w/o SNI: <i>app-sir.beta.tchap.gouv.fr </i>)
+<span style="font-weight:bold;"> Common Name (CN)             </span><i>www.tchap.gouv.fr </i>
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>tchap.gouv.fr www.tchap.gouv.fr </i>
-<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
+<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (same w/o SNI)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#e52207;font-weight:bold;">NOT ok</span><span style="color:#e52207;font-weight:bold;">:</span><span style="color:#e52207;"> Java </span>(chain incomplete)
 <span style="color:#008817;">OK: Mozilla Microsoft Linux Apple </span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">347 &gt;= 60 days</span> (2022-11-30 23:00 --&gt; 2023-11-30 22:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">340 &gt;= 60 days</span> (2022-11-30 23:00 --&gt; 2023-11-30 22:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
                               http://crl.certigna.fr/servicesca.crl
@@ -137,8 +137,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
 
 <span style="font-weight:bold;"> Heartbleed</span> (CVE-2014-0160)                <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, timed out
-<span style="font-weight:bold;"> CCS</span> (CVE-2014-0224)                       <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
-<span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
+<span style="font-weight:bold;"> CCS</span> (CVE-2014-0224)                       <span style="color:#cd00cd;"> Oops: TCP connect problem</span>
+
+<span style="color:#cd00cd;">Unable to open a socket to 143.196.253.119:443. </span><span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, no session tickets
 <span style="font-weight:bold;"> ROBOT                                     </span><span style="color:#008817;font-weight:bold;">Server does not support any cipher suites that use RSA key transport</span>
 <span style="font-weight:bold;"> Secure Renegotiation (RFC 5746)           </span><span style="color:#008817;font-weight:bold;">supported (OK)</span>
 <span style="font-weight:bold;"> Secure Client-Initiated Renegotiation     </span><span style="color:#008817;">not vulnerable (OK)</span>
@@ -210,7 +211,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS max-age is too short
 
-<span style="color:white;background-color:black;"> Done 2022-12-18 00:11:23 [ 131s] --&gt;&gt; 143.196.253.119:443 (www.tchap.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2022-12-25 00:14:41 [ 450s] --&gt;&gt; 143.196.253.119:443 (www.tchap.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
