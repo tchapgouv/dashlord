@@ -192,14 +192,14 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "340 >= 60 days"
+              "finding"      : "333 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1671926874"
+              "finding"      : "1672531590"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -574,6 +574,15 @@
               "cve"          : "CVE-2014-0160",
               "cwe"          : "CWE-119",
               "finding"      : "not vulnerable , timed out"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www.tchap.gouv.fr/143.196.253.119",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ticketbleed",
@@ -1061,6 +1070,6 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "450"
+              "finding"      : "91"
           }
 ]
