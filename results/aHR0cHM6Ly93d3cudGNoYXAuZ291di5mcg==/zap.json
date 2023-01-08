@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 1 Jan 2023 00:04:42",
+	"@generated": "Sun, 8 Jan 2023 00:05:34",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -298,7 +298,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "78"
+					"sourceid": "80"
 				},
 				{
 					"pluginid": "10063",
@@ -418,7 +418,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "78"
+					"sourceid": "80"
 				},
 				{
 					"pluginid": "10021",
@@ -531,7 +531,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "78"
+					"sourceid": "80"
 				},
 				{
 					"pluginid": "10109",
@@ -549,16 +549,9 @@
 							"param": "",
 							"attack": "",
 							"evidence": "<script src=\"bundles/1de59f7cc006e455f862/bundle.js\"></script>"
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a>Learn more</a>"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>",
 					"reference": "",
@@ -630,7 +623,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10049",
@@ -685,6 +678,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-180.c936b75.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57.8965aa3.png",
 							"method": "GET",
 							"param": "",
@@ -713,7 +713,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
