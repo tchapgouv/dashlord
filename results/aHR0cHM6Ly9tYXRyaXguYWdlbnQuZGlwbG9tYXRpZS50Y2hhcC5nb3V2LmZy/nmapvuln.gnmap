@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan  8 00:30:25 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.diplomatie.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 15 00:29:43 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.diplomatie.tchap.gouv.fr
 Host: 143.196.253.101 ()	Status: Up
 Host: 143.196.253.101 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
-# Nmap done at Sun Jan  8 00:32:31 2023 -- 1 IP address (1 host up) scanned in 126.58 seconds
+# Nmap done at Sun Jan 15 00:31:44 2023 -- 1 IP address (1 host up) scanned in 121.13 seconds
