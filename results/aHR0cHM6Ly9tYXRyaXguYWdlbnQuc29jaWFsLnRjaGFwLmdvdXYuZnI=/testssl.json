@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "264 >= 60 days"
+              "finding"      : "257 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1674350375"
+              "finding"      : "1674954916"
           }
 ,         {
               "id"           : "HSTS",
@@ -888,20 +888,216 @@
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
-              "id"           : "scanProblem",
+              "id"           : "clientsimulation-java_8u161",
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "FATAL",
-              "finding"      : "repeated TCP connect problems, giving up"
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "matrix.agent.social.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "WARN",
-              "finding"      : "Scan interrupted"
+              "severity"     : "INFO",
+              "finding"      : "143"
           }
 ]
