@@ -20,12 +20,12 @@
 <span style="font-weight:bold;">
 ###########################################################</span>
 
- Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az578-470:/home/testssl/bin/openssl.Linux.x86_64
+ Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~179 ciphers]
+ on fv-az575-296:/home/testssl/bin/openssl.Linux.x86_64
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2023-01-29 01:00:55        --&gt;&gt; 143.196.253.101:443 (matrix.agent.interieur.tchap.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2023-02-05 00:54:13        --&gt;&gt; 143.196.253.101:443 (matrix.agent.interieur.tchap.gouv.fr) &lt;&lt;--</span>
 
  rDNS (143.196.253.101): --
  Service detected:       HTTP
@@ -89,7 +89,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;application layer protocol negotiation/#16&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>300 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: yes
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Client Authentication        </span>none
 <span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">SHA256 with RSA</span>
@@ -99,14 +99,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Serial                       </span>AC05B13AD06FB32C2D444965586628EC (OK: length 16)
 <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 5D80316B33DCA1DB0119961AF78E37EBE3CE7C3E
                               SHA256 3564DDCACE8152171CF1FBF07CB52A85ED9BCEDDD3BAC63AADD83DEEC5333F20
-<span style="font-weight:bold;"> Common Name (CN)             </span><i>matrix-sir.agent.interieur.tchap.gouv.fr </i> (CN in response to request w/o SNI: <i>matrix-sir.agent.justice.tchap.gouv.fr </i>)
+<span style="font-weight:bold;"> Common Name (CN)             </span><i>matrix-sir.agent.interieur.tchap.gouv.fr </i>
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>matrix-sir.agent.interieur.tchap.gouv.fr
                               matrix.agent.interieur.tchap.gouv.fr </i>
-<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (SNI mandatory)
+<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (same w/o SNI)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#e52207;font-weight:bold;">NOT ok</span><span style="color:#e52207;font-weight:bold;">:</span><span style="color:#e52207;"> Java </span>(self signed CA in chain)
 <span style="color:#008817;">OK: Mozilla Microsoft Linux Apple </span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">257 &gt;= 60 days</span> (2022-09-11 22:00 --&gt; 2023-10-13 21:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">250 &gt;= 60 days</span> (2022-09-11 22:00 --&gt; 2023-10-13 21:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
                               http://crl.certigna.fr/servicesca.crl
@@ -126,7 +126,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
+<span style="font-weight:bold;"> HTTP clock skew              </span>-1 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
@@ -213,7 +213,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2023-01-29 01:03:34 [ 162s] --&gt;&gt; 143.196.253.101:443 (matrix.agent.interieur.tchap.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2023-02-05 00:56:40 [ 149s] --&gt;&gt; 143.196.253.101:443 (matrix.agent.interieur.tchap.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
