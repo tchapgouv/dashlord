@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 5 Feb 2023 00:05:35",
+	"@generated": "Sun, 12 Feb 2023 00:05:33",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -25,15 +25,22 @@
 							"param": "",
 							"attack": "",
 							"evidence": ""
+						},
+						{
+							"uri": "https://www.tchap.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "43"
+					"sourceid": "41"
 				},
 				{
 					"pluginid": "10020",
@@ -72,7 +79,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.css",
 							"method": "GET",
 							"param": "tchap_split_version",
 							"attack": "",
@@ -175,7 +182,7 @@
 					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.css",
 							"method": "GET",
 							"param": "tchap_split_version",
 							"attack": "",
@@ -278,7 +285,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -311,7 +318,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -378,7 +385,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -391,14 +398,14 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1431655765"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -437,7 +444,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -450,35 +457,35 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "/fonts/KaTeX/KaTeX_Size1-Regular"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "getForwardingCurve25519KeyChain"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/theme-dark.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/theme-dark.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "/fonts/Inconsolata/QldKNThLqRwH-OJ1UHjlKGlX5qhExfHwNJU"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/theme-light-high-contrast.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/theme-light-high-contrast.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "/fonts/Inconsolata/QldKNThLqRwH-OJ1UHjlKGlX5qhExfHwNJU"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/theme-light.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/theme-light.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -504,7 +511,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/1de59f7cc006e455f862/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/79a2b7894ceee5565b22/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -541,7 +548,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"bundles/1de59f7cc006e455f862/bundle.js\"></script>"
+							"evidence": "<script src=\"bundles/79a2b7894ceee5565b22/bundle.js\"></script>"
 						}
 					],
 					"count": "1",
@@ -616,7 +623,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -705,7 +712,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "43"
+					"sourceid": "41"
 				}
 			]
 		}
