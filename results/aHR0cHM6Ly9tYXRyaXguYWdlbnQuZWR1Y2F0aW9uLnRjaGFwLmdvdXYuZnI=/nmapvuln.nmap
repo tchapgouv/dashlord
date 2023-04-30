@@ -1,9 +1,8 @@
-# Nmap 7.92 scan initiated Sun Apr 23 01:06:41 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.education.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Apr 30 01:04:34 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.education.tchap.gouv.fr
 Nmap scan report for matrix.agent.education.tchap.gouv.fr (143.196.253.101)
-Host is up (0.15s latency).
-Not shown: 999 filtered tcp ports (no-response)
-PORT    STATE SERVICE    VERSION
-443/tcp open  ssl/https?
+Host is up (0.086s latency).
+All 1000 scanned ports on matrix.agent.education.tchap.gouv.fr (143.196.253.101) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Apr 23 01:07:15 2023 -- 1 IP address (1 host up) scanned in 34.79 seconds
+# Nmap done at Sun Apr 30 01:04:43 2023 -- 1 IP address (1 host up) scanned in 9.45 seconds
