@@ -52,8 +52,8 @@
               "id"           : "TLS1_3",
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "connection failed rather than downgrading to TLSv1.2"
+              "severity"     : "INFO",
+              "finding"      : "not offered + downgraded to weaker protocol"
           }
 ,         {
               "id"           : "ALPN",
@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "166 >= 60 days"
+              "finding"      : "159 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1682817694"
+              "finding"      : "1683420695"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "113"
           }
 ]
