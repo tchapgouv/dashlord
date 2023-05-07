@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.education.tchap.gouv.fr</pre>
-<p class="lead">Sun Apr 30 01:04:34 2023 – Sun Apr 30 01:04:43 2023<br>1 hosts scanned.
+<p class="lead">Sun May  7 00:36:27 2023 – Sun May  7 00:38:40 2023<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>143.196.253.101</td>
 <td>matrix.agent.education.tchap.gouv.fr</td>
-<td>0</td>
+<td>1</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -106,7 +106,77 @@
 <th>Version</th>
 <th>Extra Info</th>
 </tr></thead>
-<tbody></tbody>
+<tbody>
+<tr class="success">
+<td title="Port">443</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">https</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Sun, 07 May 2023 00:36:54 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Sun, 07 May 2023 00:36:52 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Sun, 07 May 2023 00:36:53 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Sun, 07 May 2023 00:37:05 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
+</td></tr>
+</tbody>
 </table></div>
 </div>
 </div>
@@ -122,7 +192,16 @@
 <th>CPE</th>
 <th>Extra info</th>
 </tr></thead>
-<tbody></tbody>
+<tbody><tr>
+<td>143.196.253.101 - matrix.agent.education.tchap.gouv.fr</td>
+<td>443</td>
+<td>tcp</td>
+<td>https</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr></tbody>
 </table></div>
 <script>
             $(document).ready(function() {
