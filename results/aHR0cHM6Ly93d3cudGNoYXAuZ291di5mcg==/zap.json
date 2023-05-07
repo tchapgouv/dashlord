@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 30 Apr 2023 00:35:57",
+	"@generated": "Sun, 7 May 2023 00:05:32",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -96,7 +96,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -251,6 +251,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-72.94eb05e.png",
+							"method": "GET",
+							"param": "tchap_split_version",
+							"attack": "",
+							"evidence": "Set-Cookie: tchap_split_version",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76.ff504a3.png",
 							"method": "GET",
 							"param": "tchap_split_version",
@@ -267,7 +275,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that the HttpOnly flag is set for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
@@ -700,7 +708,7 @@
 				},
 				{
 					"pluginid": "10094",
-					"alertRef": "10094",
+					"alertRef": "10094-3",
 					"alert": "Base64 Disclosure",
 					"name": "Base64 Disclosure",
 					"riskcode": "0",
@@ -884,6 +892,14 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.tchap.gouv.fr",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "max-age=0, no-store",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.tchap.gouv.fr/manifest.json",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -900,13 +916,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "52"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
