@@ -339,7 +339,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "200 >= 60 days"
+              "finding"      : "193 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1684022889"
+              "finding"      : "1684627697"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -632,10 +632,10 @@
               "id"           : "BREACH",
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
-              "severity"     : "WARN",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "Test failed as HTTP request stalled and was terminated"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1070,6 +1070,6 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "89"
+              "finding"      : "102"
           }
 ]
