@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "61 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (54)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2023-10-13 21:59"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1691886794"
+              "finding"      : "1692492027"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "113"
+              "finding"      : "111"
           }
 ]
