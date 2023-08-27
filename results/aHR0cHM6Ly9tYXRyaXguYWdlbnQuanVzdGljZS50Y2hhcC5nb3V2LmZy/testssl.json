@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.justice.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (54)"
+              "finding"      : "expires < 60 days (47)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.justice.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1692493217"
+              "finding"      : "1693097836"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.justice.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "114"
+              "finding"      : "111"
           }
 ]
