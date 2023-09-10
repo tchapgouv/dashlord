@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (24)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2023-10-04 21:59"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1693701294"
+              "finding"      : "1694306024"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.elysee.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "114"
           }
 ]
