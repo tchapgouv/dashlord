@@ -1,28 +1,13 @@
-# Nmap 7.92 scan initiated Sun Sep  3 00:50:04 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.finances.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Sep 10 00:45:07 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.finances.tchap.gouv.fr
 Nmap scan report for matrix.agent.finances.tchap.gouv.fr (143.196.253.101)
-Host is up (0.12s latency).
-Not shown: 928 filtered tcp ports (no-response)
-PORT      STATE SERVICE    VERSION
-1/tcp     open  tcpwrapped
-443/tcp   open  ssl/https
+Host is up (0.083s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+443/tcp open  ssl/https
 | fingerprint-strings: 
-|   FourOhFourRequest: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Sun, 03 Sep 2023 00:50:27 GMT
-|     Content-Length: 226
-|     Connection: close
-|     Content-Type: text/html; charset=iso-8859-1
-|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-|     <html><head>
-|     <title>400 Bad Request</title>
-|     </head><body>
-|     <h1>Bad Request</h1>
-|     <p>Your browser sent a request that this server could not understand.<br />
-|     </p>
-|     </body></html>
-|   GetRequest, HTTPOptions: 
-|     HTTP/1.1 400 Bad Request
-|     Date: Sun, 03 Sep 2023 00:50:26 GMT
+|     Date: Sun, 10 Sep 2023 00:45:28 GMT
 |     Content-Length: 226
 |     Connection: close
 |     Content-Type: text/html; charset=iso-8859-1
@@ -36,7 +21,7 @@ PORT      STATE SERVICE    VERSION
 |     </body></html>
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Sun, 03 Sep 2023 00:50:38 GMT
+|     Date: Sun, 10 Sep 2023 00:45:39 GMT
 |     Content-Length: 226
 |     Connection: close
 |     Content-Type: text/html; charset=iso-8859-1
@@ -48,109 +33,38 @@ PORT      STATE SERVICE    VERSION
 |     <p>Your browser sent a request that this server could not understand.<br />
 |     </p>
 |_    </body></html>
-465/tcp   open  tcpwrapped
-631/tcp   open  tcpwrapped
-880/tcp   open  tcpwrapped
-898/tcp   open  tcpwrapped
-999/tcp   open  tcpwrapped
-1030/tcp  open  tcpwrapped
-1045/tcp  open  tcpwrapped
-1051/tcp  open  tcpwrapped
-1055/tcp  open  tcpwrapped
-1056/tcp  open  tcpwrapped
-1057/tcp  open  tcpwrapped
-1073/tcp  open  tcpwrapped
-1074/tcp  open  tcpwrapped
-1085/tcp  open  tcpwrapped
-1088/tcp  open  tcpwrapped
-1130/tcp  open  tcpwrapped
-1137/tcp  open  tcpwrapped
-1163/tcp  open  tcpwrapped
-1187/tcp  open  tcpwrapped
-1217/tcp  open  tcpwrapped
-1583/tcp  open  tcpwrapped
-1688/tcp  open  tcpwrapped
-1782/tcp  open  tcpwrapped
-1812/tcp  open  tcpwrapped
-1839/tcp  open  tcpwrapped
-1875/tcp  open  tcpwrapped
-2008/tcp  open  tcpwrapped
-2022/tcp  open  tcpwrapped
-2179/tcp  open  tcpwrapped
-2323/tcp  open  tcpwrapped
-2557/tcp  open  tcpwrapped
-3260/tcp  open  tcpwrapped
-3828/tcp  open  tcpwrapped
-4002/tcp  open  tcpwrapped
-4242/tcp  open  tcpwrapped
-4321/tcp  open  tcpwrapped
-5004/tcp  open  tcpwrapped
-5102/tcp  open  tcpwrapped
-5269/tcp  open  tcpwrapped
-|_xmpp-info: ERROR: Script execution failed (use -d to debug)
-5877/tcp  open  tcpwrapped
-6666/tcp  open  tcpwrapped
-7019/tcp  open  tcpwrapped
-7676/tcp  open  tcpwrapped
-8010/tcp  open  tcpwrapped
-8200/tcp  open  tcpwrapped
-8400/tcp  open  tcpwrapped
-8402/tcp  open  tcpwrapped
-8873/tcp  open  tcpwrapped
-8899/tcp  open  tcpwrapped
-9001/tcp  open  tcpwrapped
-9002/tcp  open  tcpwrapped
-9415/tcp  open  tcpwrapped
-9535/tcp  open  tcpwrapped
-10010/tcp open  tcpwrapped
-10025/tcp open  tcpwrapped
-12000/tcp open  tcpwrapped
-12345/tcp open  tcpwrapped
-18040/tcp open  tcpwrapped
-20005/tcp open  tcpwrapped
-27000/tcp open  tcpwrapped
-31337/tcp open  tcpwrapped
-32771/tcp open  tcpwrapped
-32774/tcp open  tcpwrapped
-32785/tcp open  tcpwrapped
-48080/tcp open  tcpwrapped
-49999/tcp open  tcpwrapped
-51103/tcp open  tcpwrapped
-54045/tcp open  tcpwrapped
-57797/tcp open  tcpwrapped
-60443/tcp open  tcpwrapped
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/3%Time=64F3D852%P=x86_64-alpine-linux-
-SF:musl%r(GetRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20S
-SF:un,\x2003\x20Sep\x202023\x2000:50:26\x20GMT\r\nContent-Length:\x20226\r
-SF:\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-88
-SF:59-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\
-SF:.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</head><
-SF:body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20requ
-SF:est\x20that\x20this\x20server\x20could\x20not\x20understand\.<br\x20/>\
-SF:n</p>\n</body></html>\n")%r(HTTPOptions,178,"HTTP/1\.1\x20400\x20Bad\x2
-SF:0Request\r\nDate:\x20Sun,\x2003\x20Sep\x202023\x2000:50:26\x20GMT\r\nCo
-SF:ntent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/h
-SF:tml;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//I
-SF:ETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Req
-SF:uest</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browse
-SF:r\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20
-SF:understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourRequest,178
-SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2003\x20Sep\x202
-SF:023\x2000:50:27\x20GMT\r\nContent-Length:\x20226\r\nConnection:\x20clos
-SF:e\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE
-SF:\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><hea
-SF:d>\n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Req
-SF:uest</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x
-SF:20server\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>
-SF:\n")%r(RTSPRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
-SF:Sun,\x2003\x20Sep\x202023\x2000:50:38\x20GMT\r\nContent-Length:\x20226\
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/10%Time=64FD11A8%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
+SF:Sun,\x2010\x20Sep\x202023\x2000:45:28\x20GMT\r\nContent-Length:\x20226\
 SF:r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8
 SF:859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202
 SF:\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</head>
 SF:<body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20req
 SF:uest\x20that\x20this\x20server\x20could\x20not\x20understand\.<br\x20/>
-SF:\n</p>\n</body></html>\n");
+SF:\n</p>\n</body></html>\n")%r(HTTPOptions,178,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nDate:\x20Sun,\x2010\x20Sep\x202023\x2000:45:28\x20GMT\r\nC
+SF:ontent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/
+SF:html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//
+SF:IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Re
+SF:quest</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20brows
+SF:er\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x2
+SF:0understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourRequest,17
+SF:8,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2010\x20Sep\x20
+SF:2023\x2000:45:28\x20GMT\r\nContent-Length:\x20226\r\nConnection:\x20clo
+SF:se\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYP
+SF:E\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><he
+SF:ad>\n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Re
+SF:quest</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\
+SF:x20server\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html
+SF:>\n")%r(RTSPRequest,178,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Sun,\x2010\x20Sep\x202023\x2000:45:39\x20GMT\r\nContent-Length:\x20226
+SF:\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-
+SF:8859-1\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x20
+SF:2\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</head
+SF:><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20re
+SF:quest\x20that\x20this\x20server\x20could\x20not\x20understand\.<br\x20/
+SF:>\n</p>\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Sep  3 00:52:40 2023 -- 1 IP address (1 host up) scanned in 156.08 seconds
+# Nmap done at Sun Sep 10 00:47:07 2023 -- 1 IP address (1 host up) scanned in 120.55 seconds
