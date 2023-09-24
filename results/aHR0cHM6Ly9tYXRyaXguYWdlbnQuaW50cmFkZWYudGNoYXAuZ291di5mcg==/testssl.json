@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (26)"
+              "finding"      : "expires < 30 days (19)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1694911781"
+              "finding"      : "1695516676"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.intradef.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "67"
           }
 ]
