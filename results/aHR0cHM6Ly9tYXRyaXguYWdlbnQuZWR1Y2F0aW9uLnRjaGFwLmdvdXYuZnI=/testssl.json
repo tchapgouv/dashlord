@@ -192,14 +192,14 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (12)"
+              "finding"      : "expires < 30 days (5)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1696120332"
+              "finding"      : "1696725504"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "71"
           }
 ]
