@@ -192,14 +192,14 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AC05B13AD06FB32C2D444965586628EC"
+              "finding"      : "9BEA20D078D9911610941A91951DED9A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5D80316B33DCA1DB0119961AF78E37EBE3CE7C3E"
+              "finding"      : "AD0DE2A639D74F1C84694AA553C7EBD930EA0D46"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3564DDCACE8152171CF1FBF07CB52A85ED9BCEDDD3BAC63AADD83DEEC5333F20"
+              "finding"      : "1B389C8F6D1A963D97B0D51956ABD912509454D4E9405357265DA1FD4BA09D15"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "matrix-sir.agent.interieur.tchap.gouv.fr matrix.agent.interieur.tchap.gouv.fr"
+              "finding"      : "matrix.agent.interieur.tchap.gouv.fr matrix-sir.agent.interieur.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -324,8 +324,8 @@
               "id"           : "cert_chain_of_trust",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Apple"
+              "severity"     : "OK",
+              "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (5)"
+              "severity"     : "OK",
+              "finding"      : "358 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2022-09-11 22:00"
+              "finding"      : "2023-10-08 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2023-10-13 21:59"
+              "severity"     : "OK",
+              "finding"      : "2024-10-07 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,7 +374,7 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1696726195"
+              "finding"      : "1697331781"
           }
 ,         {
               "id"           : "HSTS",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3564DDCACE8152171CF1FBF07CB52A85ED9BCEDDD3BAC63AADD83DEEC5333F20"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1B389C8F6D1A963D97B0D51956ABD912509454D4E9405357265DA1FD4BA09D15"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.interieur.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "69"
+              "finding"      : "113"
           }
 ]
