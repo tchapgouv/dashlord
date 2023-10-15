@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E8AAB8D22FC8AD97A650EC94811886F6"
+              "finding"      : "4188B47F1964F829AD15D69AE4B25FD5"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E65CC8C6CE87A629824549CFF9755C716ABECF37"
+              "finding"      : "582859A4E6B4899F1F62623CC2EF5C09ECEB792B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F4EC0356928CA06DB4BCF675AD9F019A1ABBA11013077C49C1B5FD91BDDDA357"
+              "finding"      : "D803405D7E6BD78422431E3829A9007A3529549E3E3100BE59C4220466761F80"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -324,8 +324,8 @@
               "id"           : "cert_chain_of_trust",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain)  , OK -> Mozilla Microsoft Linux Apple"
+              "severity"     : "OK",
+              "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (5)"
+              "severity"     : "OK",
+              "finding"      : "358 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2022-09-11 22:00"
+              "finding"      : "2023-10-08 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2023-10-13 21:59"
+              "severity"     : "OK",
+              "finding"      : "2024-10-07 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,14 +535,14 @@
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1696726165"
+              "finding"      : "1697331702"
           }
 ,         {
               "id"           : "HSTS",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F4EC0356928CA06DB4BCF675AD9F019A1ABBA11013077C49C1B5FD91BDDDA357"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D803405D7E6BD78422431E3829A9007A3529549E3E3100BE59C4220466761F80"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.finances.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "68"
           }
 ]
