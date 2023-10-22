@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.dev-durable.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "358 >= 60 days"
+              "finding"      : "351 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "matrix.agent.dev-durable.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1697329659"
+              "finding"      : "1697934574"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.dev-durable.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "106"
           }
 ]
