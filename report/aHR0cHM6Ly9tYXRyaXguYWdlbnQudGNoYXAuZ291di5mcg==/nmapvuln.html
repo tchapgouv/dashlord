@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.tchap.gouv.fr</pre>
-<p class="lead">Sun Nov 19 00:10:54 2023 – Sun Nov 19 00:13:06 2023<br>1 hosts scanned.
+<p class="lead">Sun Nov 26 00:11:33 2023 – Sun Nov 26 00:13:43 2023<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -119,9 +119,9 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Sun, 19 Nov 2023 00:11:20 GMT
+    Date: Sun, 26 Nov 2023 00:11:59 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -135,7 +135,21 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Sun, 19 Nov 2023 00:11:19 GMT
+    Date: Sun, 26 Nov 2023 00:11:57 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Sun, 26 Nov 2023 00:11:58 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
@@ -149,7 +163,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Sun, 19 Nov 2023 00:11:32 GMT
+    Date: Sun, 26 Nov 2023 00:12:10 GMT
     Content-Length: 226
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
