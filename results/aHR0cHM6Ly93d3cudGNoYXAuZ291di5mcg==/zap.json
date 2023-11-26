@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 19 Nov 2023 00:05:16",
+	"@generated": "Sun, 26 Nov 2023 00:06:12",
 	"site":[ 
 		{
 			"@name": "https://www.tchap.gouv.fr",
@@ -139,7 +139,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "44"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10055",
@@ -179,7 +179,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -214,7 +214,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -257,7 +257,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -265,7 +265,7 @@
 							"otherinfo": "1416354905, which evaluates to: 2014-11-18 23:55:05"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -273,7 +273,7 @@
 							"otherinfo": "1431655765, which evaluates to: 2015-05-15 02:09:25"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -281,7 +281,7 @@
 							"otherinfo": "1444681467, which evaluates to: 2015-10-12 20:24:27"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -289,7 +289,7 @@
 							"otherinfo": "1473231341, which evaluates to: 2016-09-07 06:55:41"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -297,7 +297,7 @@
 							"otherinfo": "1502002290, which evaluates to: 2017-08-06 06:51:30"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -305,7 +305,7 @@
 							"otherinfo": "1518500249, which evaluates to: 2018-02-13 05:37:29"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -313,7 +313,7 @@
 							"otherinfo": "1530992060, which evaluates to: 2018-07-07 19:34:20"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -321,7 +321,7 @@
 							"otherinfo": "1540483477, which evaluates to: 2018-10-25 16:04:37"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -329,7 +329,7 @@
 							"otherinfo": "1560198380, which evaluates to: 2019-06-10 20:26:20"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -337,7 +337,7 @@
 							"otherinfo": "1700485571, which evaluates to: 2023-11-20 13:06:11"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -345,7 +345,7 @@
 							"otherinfo": "1732584193, which evaluates to: 2024-11-26 01:23:13"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -353,7 +353,7 @@
 							"otherinfo": "1732584194, which evaluates to: 2024-11-26 01:23:14"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -361,7 +361,7 @@
 							"otherinfo": "1735328473, which evaluates to: 2024-12-27 19:41:13"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -369,7 +369,7 @@
 							"otherinfo": "1770035416, which evaluates to: 2026-02-02 12:30:16"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -377,7 +377,7 @@
 							"otherinfo": "1804603682, which evaluates to: 2027-03-09 14:48:02"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -385,7 +385,7 @@
 							"otherinfo": "1839030562, which evaluates to: 2028-04-11 01:49:22"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -393,7 +393,7 @@
 							"otherinfo": "1859775393, which evaluates to: 2028-12-07 04:16:33"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -401,7 +401,7 @@
 							"otherinfo": "1873313359, which evaluates to: 2029-05-12 20:49:19"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -409,7 +409,7 @@
 							"otherinfo": "1894986606, which evaluates to: 2030-01-18 17:10:06"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -417,7 +417,7 @@
 							"otherinfo": "1926607734, which evaluates to: 2031-01-19 16:48:54"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -425,7 +425,7 @@
 							"otherinfo": "1958414417, which evaluates to: 2032-01-22 20:00:17"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -452,7 +452,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -460,7 +460,7 @@
 							"otherinfo": "\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFDi7\uFFFD\uFFFD\uFFFD\uFFFDy\u048B7\uFFFD\uFFFD\\x0017\uFFFD\uFFFDV\uFFFD"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -468,7 +468,7 @@
 							"otherinfo": "\uFFFD\uFFFD7\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\uDA36\uDE62p\uFFFD\uFFFDu\uFFFD\\x001e\uFFFD\uFFFD+"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/theme-dark.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/theme-dark.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -476,7 +476,7 @@
 							"otherinfo": "\uFFFD\uFFFD'\uFFFD\uFFFD\u021D\uFFFD'\uFFFD\uFFFDZ\uFFFD\uFFFD\u0415\u048DN\\x0012\uFFFDG\\x0001\uFFFD8\uFFFDT\\x001e9J\\x001aU\uFFFD\uFFFD\\x00111||\r%"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/theme-light-high-contrast.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/theme-light-high-contrast.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -484,7 +484,7 @@
 							"otherinfo": "\uFFFD\uFFFD'\uFFFD\uFFFD\u021D\uFFFD'\uFFFD\uFFFDZ\uFFFD\uFFFD\u0415\u048DN\\x0012\uFFFDG\\x0001\uFFFD8\uFFFDT\\x001e9J\\x001aU\uFFFD\uFFFD\\x00111||\r%"
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/theme-light.css",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/theme-light.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -538,7 +538,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.tchap.gouv.fr/bundles/6c47a47b04a9493ef228/bundle.js",
+							"uri": "https://www.tchap.gouv.fr/bundles/aa4c56d5dc9590f2868f/bundle.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -587,7 +587,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -657,7 +657,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -708,7 +708,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "44"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -759,7 +759,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "44"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -786,31 +786,15 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-144.9aa994d.png",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-57.de3b8fc.png",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "44"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -861,7 +845,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "44"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10049",
@@ -891,14 +875,6 @@
 						},
 						{
 							"uri": "https://www.tchap.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-114.4d3a5b3.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -954,7 +930,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.tchap.gouv.fr/vector-icons/apple-touch-icon-76.63f16bc.png",
+							"uri": "https://www.tchap.gouv.fr/vector-icons/favicon.a83f083.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -962,13 +938,13 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "11",
+					"count": "10",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "46"
+					"sourceid": "47"
 				}
 			]
 		}
