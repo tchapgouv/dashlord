@@ -199,7 +199,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "345 >= 60 days"
+              "finding"      : "338 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+13 seconds from localtime"
+              "finding"      : "+16 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702166855"
+              "finding"      : "1702771609"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "www.tchap.gouv.fr/143.196.253.119",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "65"
           }
 ]
