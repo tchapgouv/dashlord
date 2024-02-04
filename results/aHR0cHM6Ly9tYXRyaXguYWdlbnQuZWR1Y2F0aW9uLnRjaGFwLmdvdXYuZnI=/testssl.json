@@ -199,7 +199,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -304,7 +304,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "matrix-sir.agent.interieur.tchap.gouv.fr"
+              "finding"      : "matrix-sir.agent.justice.tchap.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -339,7 +339,7 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "253 >= 60 days"
+              "finding"      : "246 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+29 seconds from localtime"
+              "finding"      : "+32 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1706410139"
+              "finding"      : "1707015307"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "matrix.agent.education.tchap.gouv.fr/143.196.253.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "72"
+              "finding"      : "65"
           }
 ]
