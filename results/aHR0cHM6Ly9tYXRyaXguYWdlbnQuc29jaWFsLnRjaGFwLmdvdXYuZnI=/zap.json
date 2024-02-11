@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 4 Feb 2024 03:50:14",
+	"@generated": "Sun, 11 Feb 2024 03:45:44",
 	"site":[ 
 		{
 			"@name": "https://matrix.agent.social.tchap.gouv.fr",
@@ -316,7 +316,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://matrix.agent.social.tchap.gouv.fr/robots.txt",
+							"uri": "https://matrix.agent.social.tchap.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -330,7 +330,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -359,7 +359,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://matrix.agent.social.tchap.gouv.fr/robots.txt",
+							"uri": "https://matrix.agent.social.tchap.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -402,7 +402,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://matrix.agent.social.tchap.gouv.fr/robots.txt",
+							"uri": "https://matrix.agent.social.tchap.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -445,7 +445,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://matrix.agent.social.tchap.gouv.fr/robots.txt",
+							"uri": "https://matrix.agent.social.tchap.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
