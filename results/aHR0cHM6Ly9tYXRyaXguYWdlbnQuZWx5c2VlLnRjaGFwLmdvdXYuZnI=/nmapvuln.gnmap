@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Feb  4 02:56:09 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.elysee.tchap.gouv.fr
+# Nmap 7.92 scan initiated Sun Feb 11 02:51:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln matrix.agent.elysee.tchap.gouv.fr
 Host: 143.196.253.101 ()	Status: Up
-Host: 143.196.253.101 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
-# Nmap done at Sun Feb  4 02:58:22 2024 -- 1 IP address (1 host up) scanned in 133.80 seconds
+Host: 143.196.253.101 ()	Ports: 306/open/tcp//tcpwrapped///, 443/open/tcp//ssl|https///, 593/open/tcp//tcpwrapped///, 765/open/tcp//tcpwrapped///, 801/open/tcp//tcpwrapped///, 992/open/tcp//tcpwrapped///, 1035/open/tcp//tcpwrapped///, 1147/open/tcp//tcpwrapped///, 1272/open/tcp//tcpwrapped///, 1500/open/tcp//tcpwrapped///, 1935/open/tcp//tcpwrapped///, 3369/open/tcp//tcpwrapped///, 3476/open/tcp//tcpwrapped///, 3784/open/tcp//tcpwrapped///, 5357/open/tcp//tcpwrapped///, 5906/open/tcp//tcpwrapped///, 8083/open/tcp//tcpwrapped///, 9010/open/tcp//tcpwrapped///, 9090/open/tcp//tcpwrapped///, 9898/open/tcp//tcpwrapped///, 10010/open/tcp//tcpwrapped///, 13782/open/tcp//tcpwrapped///, 16012/open/tcp//tcpwrapped///, 25734/open/tcp//tcpwrapped///, 32782/open/tcp//tcpwrapped///, 33899/open/tcp//tcpwrapped///, 49155/open/tcp//tcpwrapped///, 49161/open/tcp//tcpwrapped///, 50300/open/tcp//tcpwrapped///	Ignored State: filtered (971)
+# Nmap done at Sun Feb 11 02:54:06 2024 -- 1 IP address (1 host up) scanned in 156.82 seconds
